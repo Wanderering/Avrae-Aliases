@@ -7,11 +7,11 @@ lookup = ""
 rules = load_json(get_gvar("63f55778-c21b-4665-a3aa-d9122becc7ed"))
 abilities = load_json(get_gvar("68407cf2-1161-4994-a567-7d112a44eb71"))
 items = load_json(get_gvar("27a78e34-1aaa-4481-a527-88382d7e0f4b"))
-items.append(load_json(get_gvar("0d86e2e5-86dc-4660-b66e-f29ca0a08a20")))
+items = items.append(load_json(get_gvar("0d86e2e5-86dc-4660-b66e-f29ca0a08a20")))
 moves = load_json(get_gvar("0ebfd586-2819-4fdc-a22e-36a4a3573009"))
-moves.append(load_json(get_gvar("02dadc2f-e067-49da-828e-d055673861d8")))
-moves.append(load_json(get_gvar("3b9db95b-6820-4ad8-9b67-e32522afd6cc")))
-moves.append(load_json(get_gvar("e4b19871-4430-4319-8f99-12a514b78ac6")))
+moves = moves.append(load_json(get_gvar("02dadc2f-e067-49da-828e-d055673861d8")))
+moves = moves.append(load_json(get_gvar("3b9db95b-6820-4ad8-9b67-e32522afd6cc")))
+moves = moves.append(load_json(get_gvar("e4b19871-4430-4319-8f99-12a514b78ac6")))
 if len(args) > 1:
     lookup = str(" ".join(args[1:])).lower()
     for x in options:
@@ -19,10 +19,10 @@ if len(args) > 1:
             category = x
             break
 if category == "homebrew":
-    servbrew = get_svar('p5ehomebrew')
+    servbrew = load_json(get_svar('p5ehomebrew'))
     if not servbrew:
         return err(f"You do not have any homebrew set up.  Run `{ctx.prefix}{ctx.alias}` to see how to set it up.")
-    homebrew = load_json(get_gvar(servbrew)) if servbrew else ""
+    homebrew = load_json(get_gvar(servbrew[0])) if servbrew else ""
     for thing in homebrew:
         if lookup == thing.name.lower():
             out.append(f'-title "{thing.name}"')
@@ -82,5 +82,8 @@ elif category == "move":
             out.append(f'-desc "{move.desc}"')
             out.append(f'-f "{move.meta}"')
             break 
+elif not category:
+    BAL = rules
+    BAL.append()
 return " ".join(out)
 </drac2>
