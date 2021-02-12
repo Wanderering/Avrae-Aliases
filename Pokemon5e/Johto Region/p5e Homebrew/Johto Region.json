@@ -1,0 +1,339 @@
+[{
+  "name": "Shinobi Berry",
+  "meta": "Berry",
+  "desc": "The Shinobi Berry is the rarest berry known in the Pokémon world. It has the power to turn any Pokémon in to the shiny variant of its species. Once the decision is made, however, there is no going back. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/5/52/GO_Golden_Razz_Berry.png"
+}, {
+  "name": "Amulet Coin",
+  "meta": "Key Item",
+  "desc": "A trainer that owns this item gains an additional 20% of money won from NPC trainer battles. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/2/2c/Dream_Amulet_Coin_Sprite.png"
+}, {
+  "name": "Max Potion",
+  "meta": "Restorative",
+  "desc": "Restores a creatures HP fully.  \n\nCosts: 10000 Pokedollars\n\nGen 1\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/a/a2/Dream_Max_Potion_Sprite.png"
+}, {
+  "name": "Full Restore",
+  "meta": "Restorative",
+  "desc": "Restores a pokemon's HP, PP, and heals all status conditions.\n\nCosts: 15000 Pokedollars\n\nGen 1\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/0/0c/Dream_Full_Restore_Sprite.png"
+}, {
+  "name": "Massage",
+  "meta": "Service",
+  "desc": "Allows the trainer that buys the massage to roll advantage on loyalty rolls for each pokemon.\n\nCost 1200 pokedollars\n\nGen 2\n\nHomebrew"
+}, {
+  "name": "Proned",
+  "meta": "Volatile Status",
+  "desc": "A proned creature is affected for 3 rounds of initiative. During this time:\n\nThe creature has disadvantage on attack rolls.\n\nAn attack roll against the creature has advantage if the attacker uses a melee attack. \n\nAn attack roll against the creature has disadvantage if the attacker uses a ranged attack.\n\nIf a proned creature uses an attack that requires a save, the save is rolled with advantage.\n\nHomebrew"
+}, {
+  "name": "Races",
+  "meta": "Rules",
+  "desc": "There are several Races of Pokemon Trainers. They all can be looked up by using `!prace <name of race>` \n\nHere are the list of races. \n\nAlolan\nHoennian\nJohto-Jin\nKalosian\nKantoan\nSinnoan\nUnovan\nGalarian\n\nHomebrew"
+}, {
+  "name": "Unovan",
+  "meta": "Race",
+  "desc": "You grew up in the vast region of Unova. Filled to the brim with pioneering spirits and the hustle and bustle of large cities, Unovans generally come off as quick on their feet and sharp minded.\n\n**Ability Score Increase:** You gain +2 to your Dexterity score, and a +1 to your Wisdom score.\n\n**Alignment:** Unovan people move to the beat of their own drums, and do their own thing. They tend to lean towards a Neutral or Evil alignment, but are almost always some form of Chaotic.\n\n**Speed:** Your base walking speed is 40 feet.\n\n**Quick Draw:** Once per short rest when initiative is being rolled, you can set your Pokémon at the top of the initiative order instead of rolling for initiative. In the result of two or more such abilities being used, all sides roll a d20 to break the tie.\n\n**Not So Fast:** Not willing to lose face you call out to your Pokémon, telling them not to give in and to retaliate. Using a bonus action this invigorates your active Pokémon, causing a status ailment they are suffering from to be  overcome and recovered from. If a Pokémon has multiple status ailments when this ability is used, you choose which one is removed. You can do so twice, before needing a long rest to do so again.\n\n**Languages:** You know Common, and Unovan.\n\nHomebrew"
+}, {
+  "name": "Sinnoan",
+  "meta": "Race",
+  "desc": "You grew up in the region of Sinnoh. Used to unforgiving northern temperatures and environments, citizens of Sinnoh have iron wills, with strength of both body and mind. Many Sinnoans take to traveling the world, meeting new people and learning of ancient history, however the know that sometimes the forgotten is best left that way.\n\n**Ability Score Increase:** You gain +2 to your Constitution score, and a +1 to your Intelligence score.\n\n**Alignment:** Always willing to work with others and overcome any obstacle, Sinnoans run the length of Chaotic and Lawful, but all lean Good in their intentions.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**Adaptive Resilience:** Growing up in a difficult environment has forced you to physically be more durable than other races. You gain proficiency in Constitution saving throws and gain an additional hit point per level.\n\n**Tough Through:** Your encouraging words help Pokémon you train and travel with become able to tough through pain and give it in return. As a bonus action you can inspire your Pokémon to do their best, adding your Constitution modifier to their Damage Rolls. This benefit lasts for a number of rounds equal to your Proficiency Bonus. You can use this feature twice before requiring a long rest to do so again.\n\n**Languages:** You know Common, and Sinnoan.\n\nHomebrew"
+}, {
+  "name": "Kantonian",
+  "meta": "Race",
+  "desc": "You grew up in the region of Kanto. With an affinity for learning and a world of possibilities in front of them, citizens of Kanto have been making their own way in life for as long as they've resided there.\n\n**Ability Score Increase:** You gain +1 to two ability scores of your choice.\n\n**Alignment:** Natural born adaptive people, they reflect the area they spend time in. Kantonians are traditionally Chaotic, but do not lean towards Good or Evil.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**Quick Learner:** You pride yourself on being able to learn on the fly with ease. You gain proficiency in a skill of your choice, and gain one feat to represent what sets you apart from other Kantonians. This feat cannot be any of the following: Animal Handler, Healer, or Lucky.\n\n**Adept Tutor:** When you take a long rest and bond with a Pokémon, you can choose to change one known move to another it is able to use instead of gaining temporary hit points and inspiration.\n\n**Languages:** You know Common, and Kantonese.\n\nHomebrew"
+}, {
+  "name": "Kalosian",
+  "meta": "Race",
+  "desc": "You grew up in the region of Kalos. Dripping with natural beauty and a rich history, Kalos is a laid back region whose citizens are always ready to swap stories and show off their talents.\n\n**Ability Score Increase:** You gain +2 to your Charisma score, and a +1 to your Wisdom score.\n\n**Alignment:** Kalosian people tend live in the moment, and strive to live long enough to have an interesting tale. Their alignment come in all colors of the rainbow.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**Bon Chance:** A reason for your laid back attitude is your good luck, things just seem to work out most of the time. When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. You can choose to reroll in this way twice per long rest.\n\n**Winning Personality:** You gain proficiency in the Persuasion skill, additionally you pull out all the stops and cheer on your Pokémon. When your Pokemon is forced to make a save, may use your   reaction to add your Charisma Modifier to the save. You can use this ability twice per long rest.\n\n**Languages:** You know Common, and Kalosian.\n\nHomebrew"
+}, {
+  "name": "Johto-Jin",
+  "meta": "Race",
+  "desc": "You grew up in the region of Johto. Rich in history and cultural significance, citizens of Johto usually share a deep connection to the history and traditions of their homeland. Many Johto-Jins are born with a passion of learning more of the world and the cultures of different peoples.\n\n**Ability Score Increase:** You gain +2 to your Intelligence score, and a +1 to your Wisdom score.\n\n**Alignment:** Johto-Jins are usually very reserved yet understanding of other people and their religious practices. They tend to lean towards Lawful Good.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**Insightful Combatant:** When one of your Pokémon score a critical hit with a move, you can roll one of the moves damage dice one additional time and add it to the extra damage of the critical hit.\n\n**Cultural Practitioner:** Your trainer may perform a Ceremony of Health for all Pokémon in your party. This ceremony will recover additional hit points equal to your trainers level if the Pokémon rolls at least one hit dice, and recover half of their maximum PP (rounded down) on each known move. This skill may be used once a day during a Short Rest. Additionally, you gain proficiency in the Religion Skill.\n\n**Languages:** You know Common, and Johtonese.\n\nHomebrew"
+}, {
+  "name": "Hoennian",
+  "meta": "Race",
+  "desc": "You grew up in the archipelagic region of Hoenn. From sprawling forests, meteoric craters, and open seas, you seem equipped to handle anything the world will throw your way. Many Hoennians take to archaeology, digging up fossils and learning of the old world.\n\n**Ability Score Increase:** You gain +2 to your Wisdom score, and a +1 to your Strength score.\n\n**Alignment:** Hoennians naturally adapt to their environments, and can live almost anywhere with little difficulty. They tend to abide by the land and make rules to protect it, leaning towards a Lawful form of Neutral.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**One With Nature:** You are proficient in the Nature and Survival Skills, and you gain a bonus depending on your favored type of land. Choose one of the following: Sea, Mountain, or Forest.\n\n•**Sea:** You gain a swimming speed equal to your walking speed, and you acquire the Terrain Adept Feat on all Pokémon in your party for either Arctic, Waters Edge, or Sea environments.\n\n•**Mountain:** You gain a climbing speed equal to your walking speed, and you acquire the Terrain Adept Feat on all Pokémon in your party for either Rugged, Mountain, or Cave environments.\n\n•**Forest:** You gain a walking speed of 35 feet, and you acquire the Terrain Adept Feat on all Pokémon in your party for either Forest, Grass, or Urban environments.\n\n**Languages:** You know Common, and Hoennian.\n\nHomebrew"
+}, {
+  "name": "Alolan",
+  "meta": "Race",
+  "desc": "You grew up in the tropical paradise of Alola. People there share a deeper connection with both Pokémon and nature. Your traditions and culture are completely different from any other region and you're proud of that fact.\n\n**Ability Score Increase:** You gain +2 to your Charisma score, and a +1 to your Constitution score.\n\n**Alignment:** The Alolan people have a very specific way of doing things, which makes the gravitate towards a Neutral way of being.\n\n**Speed:** Your base walking speed is 35 feet.\n\n**Pokémon Whisperer:** Alolan people seem to share a deeper natural connection with most Pokémon compared to other races of people. You also gain proficiency in the Insight Skill, and can understand the wants and needs of your team-mates without difficulty, once per long rest you may do the same with a Pokémon that is not owned by you.\n\n**A Bond Like No Other:** The ability you have to draw out the best of your Pokémon is quite effective, helping them last longer and more willing to stand by your side in any situation. Whenever a Pokémon gains temporary hit points or heals from a feature, bonding, or move it uses, the Pokémon gains additional hit points of that type equal to your Proficiency Bonus. If a move used by the Pokémon would heal more than once due to duration, it only heals the additional hit points the first time health is recovered per usage of the move.\n\n**Languages:** You know Common, and Alolan.\n\nHomebrew"
+}, {
+  "name": "Surge Surfer",
+  "meta": "Ability",
+  "desc": "After using an electric-type move, this Pokémon can use a bonus action to increase both its walking and flying speeds by 20ft for 1 minute. Once it uses this ability, it must complete a long rest before it can use it again.\n\nHomebrew"
+}, {
+  "name": "Tangling Hair",
+  "meta": "Ability",
+  "desc": "Any time this Pokémon is hit with a melee attack, the attacker must make a dexterity saving throw (DC 8 + CHA + prof.) or have its speed reduced by 10 ft until the end of Dugtrio's next turn.\n\nHomebrew"
+}, {
+  "name": "Fur Coat",
+  "meta": "Ability",
+  "desc": "As a reaction when hit by a melee attack, this Pokémon can halve the damage it takes from that attack and all other attacks until the beginning of this Pokémon's next turn. Once this ability is used, it can't be used again until the Pokémon finishes a short or long rest.\n\nHomebrew"
+}, {
+  "name": "Galvanize",
+  "meta": "Ability",
+  "desc": "All of this Pokémon's Normal-type moves are Electric-type.\n\nHomebrew"
+}, {
+  "name": "Power of Alchemy",
+  "meta": "Ability",
+  "desc": "The Pokémon copies the Ability of a defeated ally.\n\nHomebrew"
+}, {
+  "name": "Dragon Hammer",
+  "meta": "**Type:** Dragon\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee, reach 35ft",
+  "desc": "You use your body like a hammer to slam into your foe. Make a melee attack against a target within your reach, dealing 2d8 + MOVE dragon damage on a hit. Hit or miss, the target and all creatures on a line 35 ft long and 5 ft wide extending from you towards the target must make a dexterity saving throw, taking 2d4 + MOVE dragon damage on a fail. On a critically failed attack roll, you fall prone.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10/2d6 at level 5, 3d10/3d6 at level 10, and 4d12/4d8 at level 17.\n\nHomebrew"
+}, {
+  "name": "Shadow Bone",
+  "meta": "**Type:** Ghost\n**Move Power:** DEX/STR\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee",
+  "desc": "You attack by beating yout target with a large bone containing a spirit. Make a melee attack roll, dealing 2d6 + MOVE ghost damage on a hit. On a natural attack roll of 18 or higher, the target's AC is reduced by 1 while they remain in combat.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.\n\nHomebrew"
+}, {
+  "name": "Malasada Berry",
+  "meta": "Berry",
+  "desc": "The malasada Berry is a genetic masterpiece. The berry has the power to turn any Pokémon in to the alolan variant of its species, if there is one. Once the decision is made, however, there is no going back. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://i.imgur.com/g3CUZZW.png"
+}, {
+  "name": "Zen Mode 2",
+  "meta": "Ability",
+  "desc": "When this Pokémon is below 50% of their maximum HP, they enter Zen Mode. In Zen Mode, Darmanitan changes into the form of a solid status. It's type changes to Fire/Ice, it gains +2 to its STR and +4 to its DEX.\n\nHomebrew"
+}, {
+  "name": "Gorilla Tactics",
+  "meta": "Ability",
+  "desc": "This Pokémon's STR modifier is doubled for attack rolls and damage rolls, however the first move used will be the only move available until the Pokémon switches out or faints."
+}, {
+  "name": "Screen Cleaner",
+  "meta": "Ability",
+  "desc": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon.\n\nHomebrew"
+}, {
+  "name": "Neutralizing Gas",
+  "meta": "Ability",
+  "desc": "As long as this Pokémon is your active Pokémon, all abilities are negated.\n\nHomebrew"
+}, {
+  "name": "Pastel Veil",
+  "meta": "Ability",
+  "desc": "Your Pokémon cannot be poisoned as long as this Pokémon is your active Pokémon.\n\nHomebrew"
+}, {
+  "name": "Wandering Spirit",
+  "meta": "Ability",
+  "desc": "When this Pokémon is hit by a melee attack, one random ability of its attacker exchanges with Wandering Spirit until the end of the encounter.\n\nHomebrew"
+}, {
+  "name": "Mimicry",
+  "meta": "Ability",
+  "desc": "Changes the Pokémon's type depending on the terrain. (See TM 96 Nature Power for possible references)\n\nHomebrew"
+}, {
+  "name": "Steely Spirit",
+  "meta": "Ability",
+  "desc": "This Pokémon may add its STAB bonus to power up an ally's steel attack move damage.\n\nhomebrew"
+}, {
+  "name": "Snap Trap",
+  "meta": "**Type:** Grass\n**Move Power:** DEX/STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 5 rounds, concentration\n**Range:** Melee",
+  "desc": "you trap the target with your mouth-shaped body. Make a melee attack roll, doing 1d6 + MOVE grass damage on a hit. As long as you maintain concentration, the target takes an additional 1d6 grass damage at the end of each of its next five turns.\n\n**Higher Levels:** The damage dice rolls for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17.\n\nHomebrew"
+}, {
+  "name": "Coordinator ",
+  "meta": "Trainer Path",
+  "desc": "The life of a coordinator is one of precision and style. Taking the time and learning when to use the opportune outfit, or use the exact show stopping move, is what it is all about. Upon taking this at level 2 you may re-roll a performance check once per stage of a contest.\n\n**Added Chutzpah**\n\nAt level 5 you gain a number of Style Dice equal to your Charisma Modifier. These are d6s that you may add to any performance check during a contest.\n\n**Beacon of Charisma**\n\nAt level 9 you add 2 Charisma to all of your Pokemon\n\n**Team Up**\n\nAt level 15 you also add your Proficiency Modifier to any performance check your Pokemon makes during the Solo stage of a contest.\n\nHomebrew"
+}, {
+  "name": "Galarian Tea Leaves",
+  "meta": "Berry",
+  "desc": "The Galarian Tea Leaves is the fruit of the Galar Berry and is a genetic masterpiece. The berry has the power to turn any Pokémon in to the Galarian variant of its species, if there is one. Once the decision is made, however, there is no going back. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://pokemongohub.net/wp-content/uploads/2018/08/Item_0707.png"
+}, {
+  "name": "Mega Evolution (Johto)",
+  "meta": "Rule",
+  "desc": "Mega Evolution is a powerful yet taxing process, and only skilled trainers and Pokémon who fully trust each other can undergo the process, and even then there's a limit to how often Mega Evolution can occur. The following are the rules for Mega Evolution n the Johto Server:\n\n• You must be Trainer level 13 or higher to use Mega Evolution with your Pokémon\n\n• Pokémon cannot Mega Evolve until they are at least level 13.\n\n• Pokémon can Mega Evolve twice between long rests.\n\n• Mega stones (Megalite) are often incorporated into jewelry such as bracelets, necklaces, or pins, but could also be carried instead of worn, or built into a different type of jewelry, clothing, equipment, or object. It does not go against your held item your pokemon has. It will be labeled as an accessory.\n\n• A Pokémon must have a Loyalty of \"Loyal\" with its trainer in order to Mega Evolve.\n\n• You can only mega evolve once in a battle.\n\n• It takes a Bonus Action to initiate Mega Evolution.\n\n• Need to be a final stage in its pokemon evolution chain or your pokemon had to consume the evolite item.\n\n • Changes its physical form (to something mega-cool looking) \n\n • Adds temporary hit points equal to double its level (that go to zero after the Mega Evolution is over) \n\n• Increases its AC by 3 \n\n• It adds a +5 to all of its base ability score modifiers.\n\n• Mega Evolution lasts until the pokemon is knocked out or the battle is over whichever comes first. Mega Evolving out of combat is allowed for flavor and rp reasons and on adventures, but the pokemon cannot start a battle mega evolved. This counts against your total uses per long rest of mega evolution for the pokemon. \n\nhomebrew"
+}, {
+  "name": "Mega Keystone",
+  "meta": "Key Item",
+  "desc": "Mega Keystones are awarded to the trainers who make it to the Indigo Plateau after acquiring all 8 gym badges, or to the winner of the Grand Festival.\n\nCost: N/A\n\nHomebrew"
+}, {
+  "name": "Old Potion",
+  "meta": "Restorative",
+  "desc": "Restores a creatures HP by 2d4+3d6+8  \n\nCosts: N/A\n\nHomebrew",
+  "image": "https://vignette.wikia.nocookie.net/pokemongo/images/8/8f/Super_Potion.png/revision/latest/scale-to-width-down/150?cb=20160714191458"
+}, {
+  "name": "Ancient Relic",
+  "meta": "Key Item",
+  "desc": "Ancient Relic of an age long since past. \n\ncan be sold for 1000 poke dollars.\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/2/2e/Dream_Relic_Crown_Sprite.png"
+}, {
+  "name": "Cover Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived in the sea. It appears as though it could be part of its back. \n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Tirtouga. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/e/ee/Dream_Cover_Fossil_Sprite.png"
+}, {
+  "name": "Helix Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived in the sea. It might be a piece of a seashell.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Omanyte. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/c/c0/Dream_Helix_Fossil_Sprite.png"
+}, {
+  "name": "Skull Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it's part of a head.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Cranidos. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/1/1f/Dream_Skull_Fossil_Sprite.png"
+}, {
+  "name": "Dome Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived in the sea. It could be a shell or carapace.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Kabuto. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/4/4a/Dream_Dome_Fossil_Sprite.png"
+}, {
+  "name": "Claw Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived in the sea. It appears to be a fragment of a claw.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Anorith. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/7/7e/Dream_Claw_Fossil_Sprite.png"
+}, {
+  "name": "Root Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived in the sea. It looks as if it could be part of a plant's root.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Lileep. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/e/ec/Dream_Root_Fossil_Sprite.png"
+}, {
+  "name": "Armor Fossil",
+  "meta": "Key Item",
+  "desc": "A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it's part of a head.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Sheildon. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/c/c8/Dream_Armor_Fossil_Sprite.png"
+}, {
+  "name": "Golden Nugget",
+  "meta": "Key Item",
+  "desc": "Pressed gold in the shape of a sphere, found deep underground. It is beautiful and valuable. \n\ncan be sold for 5000 poke dollars.\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/5/50/Dream_Nugget_Sprite.png"
+}, {
+  "name": "Old Amber",
+  "meta": "Key Item",
+  "desc": "A piece of amber that still contains the genetic material of an ancient Pokémon. It's clear with a tawny, reddish tint.\n\nIf taken to the Ruins of Alph, the researchers can regenerate it into the pokemon Aerodactyl. \n\nCost: N/A \n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/6/6f/Dream_Old_Amber_Sprite.png"
+}, {
+  "name": "Johto Potion",
+  "meta": "Restorative ",
+  "desc": "Restores a creatures HP by 20.  \n\nCosts: 500 Pokedollars\n\nGen 1\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/d/df/Dream_Potion_Sprite.png"
+}, {
+  "name": "Johto Super Potion",
+  "meta": "Restorative ",
+  "desc": "Restores a creatures HP by 50.  \n\nCosts: 1300 Pokedollars\n\nGen 1\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/5/57/Dream_Super_Potion_Sprite.png"
+}, {
+  "name": "Johto Hyper Potion",
+  "meta": "Restorative ",
+  "desc": "Restores a creatures HP by 200.  \n\nCosts: 5000 Pokedollars\n\nGen 1\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/c/c8/Dream_Hyper_Potion_Sprite.png"
+}, {
+  "name": "Pokémon Box Link",
+  "meta": "Key Item",
+  "desc": "Through the genius of the professor, using this item allows a trainer to access their PC from practically anywhere. Though it may not be used everywhere. One place it is not useable is in the chambers of the Elite 4 including the main chamber.",
+  "image": "https://cdn.bulbagarden.net/upload/7/70/Bag_Pok%C3%A9mon_Box_Link_Sprite.png"
+}, {
+  "name": "Galarian",
+  "meta": "Race",
+  "desc": "You grew up in the secluded region of Galar. Used to doing things your own way, Galarians can come off as cold or intimidating, however that's often far from true. Galarians tend to be renown across the lands for their devotion.\n\n**Ability Score Increase:** You gain +2 to your Strength score, and a +1 to your Constitution score.\n\n**Alignment:** Very stubborn and unwilling to change their ways, they tend to lean towards a Lawful alignment be it Good or Evil.\n\n**Speed:** Your base walking speed is 30 feet.\n\n**Specialized Training:** Being able to learn from your Pokemon comes second nature. You gain expertise in one skill of your choice that isn't Animal Handling to reflect how you've trained along side your team-mates.\n\n**That Didn't Even Hurt:** Galarians and the Pokémon they train are able to naturally shrug off some attacks in the heat of the moment. When you or your Pokémon takes damage, you can use your reaction to reduce the damage taken by your level plus your Constitution modifier to a minimum of 1. You can use this feature once before needing a long rest to do so again.\n\n**Languages:** You know Common, and Galarian.\n\nHomebrew"
+}, {
+  "name": "Mother Nature Berry",
+  "meta": "Berry",
+  "desc": "The Mother Nature Berry is one of the rarest berries in the world. When a Pokémon consumes this berry, the Pokemon’s nature changes to the trainers choosing. The change is permanent unless the Pokémon eats another Mother Nature Berry.\n\nCost: N/A \n\nHomebrew",
+  "image": "https://vignette.wikia.nocookie.net/pokemongo/images/d/de/Unconfirmed_Item_Wepear_Berry.png/revision/latest/scale-to-width-down/150?cb=20160810182943"
+}, {
+  "name": "Rare Candy",
+  "meta": "Consumable",
+  "desc": "A power packed candy. Multiple colors like a rainbow, decorate this candy. It is consumable by Pokemon only. Rare candy increases the exp of a pokemon by 2000exp. Will not work on pokemon lower then level 5. \n\nNot sold Item.\n\nGen 1 (Homebrew)",
+  "image": "https://cdn.bulbagarden.net/upload/0/02/Dream_Rare_Candy_Sprite.png"
+}, {
+  "name": "Training Powder",
+  "meta": "Consumable",
+  "desc": "A all natural power to be mixed with water. This power packed powder is made to enhance your pokemon's abilities during their training sessions. It allows you to do an extra training session with any pokemon that consumes it. It is too bitter to be used more than once a day. (Cannot be used on multiple pokemon per day.)\n\nCosts: 2500 Pokedollars\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/c/c8/Dream_Boost_Mulch_Sprite.png"
+}, {
+  "name": "Johto Honey",
+  "meta": "Consumable",
+  "desc": "Allow a trainer to reroll the perception check for a wild Pokémon encounter. The DM will tell you your options and you can choose which of the two Pokémon you will encounter. In the result of a tie, the item is used. You can choose to use honey after you see the original roll but needs to be used prior to the trainer adding their pokemon in initiative. It is too sweet to be used more than once a day. \n\nCosts: 1000 Pokedollars.\n\nHomebrew",
+  "image": "https://cdn.bulbagarden.net/upload/0/0d/Dream_Honey_Sprite.png"
+}, {
+  "name": "Odd Mushroom",
+  "meta": "Consumable",
+  "desc": "Turns the wild encounter into a flip wild encounter no matter the day used. So on the flip days it will be a normal encounter. You can choose to use Odd Mushroom after seeing the roll but needs to be used prior to the trainer adding their pokemon in initiative. Odd Mushroom is too bitter to be used more than once per day. \n\nCosts: 1000 Pokedollars. \n\nHomebrew",
+  "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/6/65/OoT3D_Odd_Mushroom_Model.png/480px-OoT3D_Odd_Mushroom_Model.png?version=18f8841e854ef81c7ad9b00e059e062a"
+}, {
+  "name": "Caffeine",
+  "meta": "Restorative ",
+  "desc": "The jolt your Pokémon needs to get up. Instantly raises the Pokémon from proned and grants immunity to the \"Proned\" status for one round.\n\nCosts: 200 Pokedollars\n\nHomebrew"
+}, {
+  "name": "Gedup Berry",
+  "meta": "Berry",
+  "desc": "Fruit from the Gedup Tree. Eating this berry will cure the proned ailment. Activated if a Pokemon is holding this and effected by the status ailment.\n\nCosts: 200 Pokedollars\n\nHomebrew"
+}, {
+  "name": "Artificial Super Increasing Berry (ASI)",
+  "meta": "Berry",
+  "desc": "This magical Berry is artificially made. It is mysterious and is still unknown what it fully does. \n\nThis Berry, once consumed, removes a feat or ASI and allows it to be relocated as a different feat or ASI. It is so powerful, a Pokémon cannot consume more than one. Needs to be an even exchange, and cannot move more then 2 ASI, or one feat exchange. \n\nNot sold.\nHomebrew "
+}, {
+  "name": "Grunt (Old Version)",
+  "meta": "Trainer Path",
+  "desc": "Whether current or aspiring evil team member, your goal is to cast down all goody two shoe trainers and rise up in the ranks! When you choose this path, take an additional specialization.\n\n**Dark Arts:**\nWhen you reach level 5, you know the ins and outs of what it means to be a part of an evil team! Gain proficiency in either Deception, Stealth, or Sleight of Hand. Once per Pokémon battle, you can impose disadvantage on an opponent's attack roll or saving throw.\n\n**Speed of Light:**\nYou know how to blast off with the best of them. At level 9 gain the “Alert” feat, and increase your Pokémon’s move speed by 10.\n\n**Admin:**\nYou have made it to the top ranks, commanding authority over people and Pokémon alike. When you reach level 15, gain proficiency in Persuasion and immediately gain the final Control Upgrade that you would normally obtain at level 17."
+}, {
+  "name": "Ganon Berry",
+  "meta": "Berry",
+  "desc": "The Ganon Berry is the most powerful berry known in the Pokémon universe. It is so powerful a Pokémon can never consume more than one in its life. Once consumed, regardless of the type of Pokémon, it gains either 2 ASI or 1 feat permanently. (ASI can go above 20 but no higher then 30)\n\nCost: N/A \n\nHomebrew"
+}, {
+  "name": "Reversion Berry",
+  "meta": "Berry",
+  "desc": "Fruit from the Reversion Tree. Eating this berry will transform your pokemon into the original generational form from the galarian or the alolan versions, as well as, remove the shiny variant. This change is permanent without a form changing berry. \n\nCosts: N/A\n\nHomebrew"
+}, {
+  "name": "Tourney Ticket",
+  "meta": "Key Item",
+  "desc": "This golden ticket allows the trainer to be able to attend the tournaments in the Johto Region when they are open.\n\nCosts: N/A\n\nHomebrew"
+}, {
+  "name": "Mega Rare Candy",
+  "meta": "Consumable",
+  "desc": "The most power packed candy ever made. 100% synthetic, and shows you the power of not natural ingredients. the pokemon that eats it gains 20,000 exp. Pokemon needs to be level 10 to use.\n\nCosts: N/A\n\nHomebrew"
+}, {
+  "name": "Rarer Candy",
+  "meta": "Consumable",
+  "desc": "Power packed candy ever made. 50% synthetic, and shows you the power of not natural ingredients and natural ingredients. the pokemon that eats it gains 5,000 exp. Pokemon needs to be level 7+ to use.\n\nCosts: N/A\n\nHomebrew"
+}, {
+  "name": "World Champ Belt",
+  "meta": "Key Item",
+  "desc": "This belt is presented to the ultimate pokemon battle master. It grants the Trainer an additional PvP battle per day, and a special role on the server that will set you apart from all others. \n\nCost: N/A\n\nHomebrew "
+}, {
+  "name": "Pokecenter Ticket",
+  "meta": "Key Item",
+  "desc": "Allows the trainer a free full heal at the pokecenter. \n\nCost: N/A\n\nHomebrew"
+}, {
+  "name": "Berserk",
+  "meta": "Ability",
+  "desc": "When this Pokémon takes an amount of damage from a single hit that is equal or greater than half the Pokémon's maximum HP, the next attack this pokemon does is an automatic crit, they still need to roll the attack. "
+}, {
+  "name": "Thunderous Kick",
+  "meta": "**Type:** Fighting\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee",
+  "desc": "You overwhelm the target with lightning-like movement before delivering a powerful kick. Make a melee attack roll, doing 2d8 + MOVE fighting damage on a hit, and causing the target to lose 1AC. Can stack up to -5 AC\n\n**Higher Levels:** The damage dice roll for this moves changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+}, {
+  "name": "Fiery Wrath",
+  "meta": "**Type:** Dark\n**Move Power:** WIS/CON\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 80ft",
+  "desc": "You transform your wrath into a fire-like aura attack. Make a ranged attack roll, doing 2d8 + MOVE dark damage on a hit, and causing the target to flinch.\n\n**Higher Levels:** The damage dice roll for this moves changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+}, {
+  "name": "Freezing Glare",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/CON\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 80ft",
+  "desc": "You send a concentrated beam of freezing energy at a single creature in range, with your eyes. Make a ranged attack roll, doing 2d8 + MOVE psychic damage on a hit, and forcing the target to make a WIS save against your Move DC or become frozen.\n\n**Higher Levels:** The damage dice roll for this moves changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+}, {
+  "name": "Transistor",
+  "meta": "Ability",
+  "desc": "For any electric type move, you can add the Proficency of this pokemon to its damage bonus."
+}, {
+  "name": "Dragon's Maw",
+  "meta": "Ability",
+  "desc": "For any dragon type move, you can add the Proficency of this pokemon to its damage bonus."
+}, {
+  "name": "Thunder Cage",
+  "meta": "**Type:** Electric\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 3 turns, Concentration\n**Range:** 80ft",
+  "desc": "You release a series of moving arcs of electricity that dance around a target. Make a ranged attack roll, doing 2d6 + MOVE electric damage on a hit. As long as you maintain concentration, the target takes an additional 2d6 electric damage at the end of each of its next three turns.\n\n**Higher Levels:** The dice roll for this move changes to 2d10+Move at level 5, 4d8+Move at level 10, and 10d4+Move at level 17."
+}, {
+  "name": "Dragon Energy",
+  "meta": "**Type:** Dragon\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 80ft",
+  "desc": "You convert your energy into a concentrated beam of dragon energy at a single creature in range. Make a ranged attack roll, doing 2d8 + MOVE dragon damage on a hit. If you are at half health or lower, this move does half of its total damage rolled. \n\n**Higher Levels:** The damage dice roll for this moves changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+}, {
+  "name": "Baby Bottle Berry",
+  "meta": "Berry",
+  "desc": "Fruit from the “Baby Bottle Tree” This berry allows a Pokemon to reach deep within their own Genetic Code and learn one Egg Move from their list of possible Egg Moves. The move chosen will need to replace one of its current known moves. This Berry is too sweet to be consumed by the same Pokémon more than a single time.\n\nCost: N/A\nHomebrew"
+}, {
+  "name": "Poke Racer",
+  "meta": "Trainer Path",
+  "desc": "You are all about speed. Hot, nasty, bad-ass speed. You have\nadvantage on initiative rolls.\n\n**Slingshot, Engage**\nThe field Rattata is fast, but the Hoothoot sees at night. Starting at Trainer Level 5, Pokemon you own gain an additional +10 to each of their movement speeds. Additionally, each Pokemon you own gains proficiency in either the Athletics or Acrobatics skill if they are not already proficient. If they are already proficient, they gain expertise (double the proficiency bonus) instead. You must choose the same skill for each of your Pokemon and this skill cannot change once selected.\n\n**That Just Happened!**\nYou can't have two No. 1s. Once you reach Level 9, your Pokemon's speed cannot be reduced by an effect or a condition. Additionally, if an opponent uses a reaction to make an attack roll against your Pokemon, it is made with disadvantage.\n\n**Shake and Bake!**\nYour Pokemon are the best there is. Plain and simple. When you reach level 15, each of your Pokemon gain advantage on checks to maintain concentration and get +2 to their Dexterity Ability Score. Additionally, the maximum value for your Pokemon's Dexterity score increases to 22.\n\nHomebrew\nPokemon5e Gen 7"
+}, {
+  "name": "Link’s Replica Ranger Gloves",
+  "meta": "Trainer Accessory ",
+  "desc": "These leather gloves, with a stamped signature of the famous trainer Link,  grants the wearer incredible training powers. This allows advantage on all weapon proficiency training rolls. \n\nCost: N/A\nHomebrew"
+}]
