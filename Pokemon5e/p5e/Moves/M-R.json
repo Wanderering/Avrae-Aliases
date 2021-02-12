@@ -1,0 +1,609 @@
+[{
+  "name": "Mach Punch",
+  "desc": "You rush forward to punch with incredible speed. Choose a target within 10 feet of you. You rush forward to slam a fist into the creature, avoiding all attacks of opportunity. Make a melee attack on that creature, dealing 1d4 fighting damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR/DEX\n**Move Time:** 1 bonus action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Magic Coat",
+  "desc": "A flash of magical energy forms between you and a creature, reflecting negative energy back at an attacker in range. When an attack from a creature causes you to suffer from a negative status condition, they are also affected by the same condition.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/CON\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 50ft"
+}, {
+  "name": "Magic Room",
+  "desc": "You employ your psychic power to suppress the effect of all held items in a 100 foot circle, centered on you.",
+  "meta": "**Type:** Psychic\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 5 rounds, Concentration\n**Range:** Self (50ft radius)"
+}, {
+  "name": "Magical Leaf",
+  "desc": "You summon a sharp, magical leaf that strikes a creature.  This move is guaranteed to hit for 1d6 + MOVE grass damage, unless during the invulnerable stage of Fly, Dig, Bounce, Dive, etc. moves.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Magma Storm",
+  "desc": "You stir up a maelstrom of fire in a 20 foot circle, centered on a point within range, that continues to rage as long as you hold your concentration. Any creature that enters this area for the first time on their turn, or is in that area at the beginning of their turn must make a CON save against your Move DC, taking 3d8 + MOVE fire damage on a failure, or half as much on a success.\n\n**Higher Levels:** The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17.",
+  "meta": "**Type:** Fire\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** 80ft"
+}, {
+  "name": "Magnet Bomb",
+  "desc": "You hurl a steel ball that seeks out a creature in range, never missing. This move is guaranteed to hit for 1d6 + MOVE steel damage, unless during the invulnerable stage of Fly, Dig, Bounce, Dive, etc. moves.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17.",
+  "meta": "**Type:** Steel\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Magnet Rise",
+  "desc": "You use magnetic power within yourself to raise yourself from the ground, becoming immune to ground moves for the duration.",
+  "meta": "**Type:** Electric\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Magnetic Flux",
+  "desc": "You use your electric energy to manipulate magnetic fields. Until the beginning of your next turn, any creature in range with the Plus or Minus ability gains a bonus to their AC equal to your proficiency modifier, and any saving throw they are forced to make is rolled with advantage.",
+  "meta": "**Type:** Electric\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 1 round\n**Range:** 40ft"
+}, {
+  "name": "Magnitude",
+  "desc": "You shake the ground with an earth-shattering quake. All creature in range must make a DEX save against your Move DC, taking half damage on a success and full damage on a fail. Creatures in range that are burrowed or in the invulnerable stage of Dig take double damage from this move. Roll a d100 on the table below to determine damage. Raised creatures are immune to the effects and damage of this move.\n\n| d100  | Damage |\n|  01-05  | 1d4+MOVE |\n|  06-15  | 1d8+MOVE |\n|  16-35  | 1d10+MOVE |\n|  36-65  | 1d12+MOVE |\n|  66-85  | 2d6+MOVE |\n|  86-95  | 2d8+MOVE |\n|  96-100  | 2d12+MOVE |\n\n**Higher Levels:** For damage rolls, use 2x Dice at level 5, 3x Dice at level 10, and 4x Dice at level 17.",
+  "meta": "**Type:** Ground\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self (30ft radius)"
+}, {
+  "name": "Mat Block",
+  "desc": "You conjure up a ethereal, protective mat to shield you and your allies. Until the end of your next turn, any ally creature within 15 feet of you (including you) is immune to damage from damaging moves. Status-inducing moves can still affect their targets.",
+  "meta": "**Type:** Fighting\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self (15ft radius)"
+}, {
+  "name": "Me First",
+  "desc": "When targeted by or forced to make a saving throw from a single-target move, you may use your reaction to copy the creature’s move against it, after activation but before the effects. If the move requires an attack roll, you have disadvantage on the attack. If the move requires a saving throw, the target has advantage on the roll. If the move causes damage, double the damage dice. The damage/effect tier for the move is based off of your level, not the target's.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Mean Look",
+  "desc": "You flash an intimidating look at a target, attempting to freeze them in fear. Force a target in range to make a WIS save against your Move DC. On a fail, the target cannot flee or be switched out for 3 rounds.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 3 rounds\n**Range:** 50ft"
+}, {
+  "name": "Meditate",
+  "desc": "You become one with your inner self. For the duration, you gain +1 to attack rolls and saving throws.\n\n**Higher Levels:** The bonus changes to +2 at level 5, +3 at level 10, and +4 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Mega Drain",
+  "desc": "You attempt to drain the life force of a target. Make a ranged attack on a target, doing 1d6 + MOVE grass damage on a hit. Half of the damage dealt is restored to the user.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 50ft"
+}, {
+  "name": "Mega Kick",
+  "desc": "You strike out with a hard kick. Make a melee attack against a target, doing 2d10 + MOVE normal damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Mega Punch",
+  "desc": "You strike out with a hard punch Make a melee attack against a target, doing 2d6 + MOVE normal damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Megahorn",
+  "desc": "You charge at a creature for a devastating horn attack. Make a melee attack roll, doing 2d10 + MOVE bug damage on a hit. If the user moves at least 20 feet straight towards a target before using this move, the target is forced to make a STR save against your Move DC or be knocked prone.\n\n**Higher Levels:** The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17.",
+  "meta": "**Type:** Bug\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Memento",
+  "desc": "You sacrifice your life force to leave a lasting mark on a target. When you activate this move, you touch a creature and drop to 0 hit points. As a result, the target is incapacitated for 2 rounds. All attacks against it have advantage, it automatically fails all STR and DEX saving throws by the maximum amount, and it cannot attack, move, flee, or be switched out.",
+  "meta": "**Type:** Dark\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 2 rounds\n**Range:** Melee"
+}, {
+  "name": "Metal Burst",
+  "desc": "You lash out in retaliation with a bust of harsh metal shards. As a reaction, when you are hit with a melee attack that deals damage, make a melee attack roll against your attacker, with disadvantage. On a hit, deal the same amount of steel type damage back at your attacker (maximum of 5x your current level).",
+  "meta": "**Type:** Steel\n**Move Power:** STR/DEX\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Metal Claw",
+  "desc": "You strike out with sharp claws. Make a melee attack roll against a creature, doing 1d8 + MOVE steel damage on a hit. If the natural attack roll is 19 or 20, your next attack gets an additional +1 to hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Steel\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Metal Sound",
+  "desc": "You emit an ear-shattering high pitched sound that only your target can hear, leaving them in a defenseless state. When activating this move, a target must make a CON saving throw against your Move DC. On a failure, all attack rolls against the target are given a +5 bonus until the end of your next turn.",
+  "meta": "**Type:** Steel\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 round\n**Range:** 50ft"
+}, {
+  "name": "Meteor Mash",
+  "desc": "You smash a creature with a fist as fast as a meteor strike. Make a melee attack against a creature, doing 2d8 + MOVE steel damage on a hit. If the natural attack roll is 18 or higher, your next attack has advantage.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Steel\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Metronome",
+  "desc": "You summon a move at random to inflict against a creature. When you use this move, roll a d100. The resulting number is the TM number for the move you make. If the move is unable to be completed because of positioning, range, etc., Metronome fails.",
+  "meta": "**Type:** Normal\n**Move Power:** Varies\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Varies\n**Range:** Varies"
+}, {
+  "name": "Milk Drink",
+  "desc": "You create a tasty drink that heals your or an ally’s wounds. The recipient gains 2d6 + MOVE hit points.\n\n**Higher Levels:** The dice roll for this move changes to 3d6 at level 5, 5d6 at level 10, and 8d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** CON\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 10ft"
+}, {
+  "name": "Mimic",
+  "desc": "You copy another creature's movements, learning its ways in battle. When used, this move is temporarily replaced by your choice of one of the target's moves. The target can be an ally. After one PP is subtracted to use this move, the replacement move will retain Mimic's remaining PP. The user can select any of the target's moves to copy for the duration.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** 120ft"
+}, {
+  "name": "Mind Reader",
+  "desc": "You sense the motives and moves of a creature around you. When this move is activated, a single attack roll you make next turn is guaranteed to hit. You may roll to see if you crit or cause an effect from a high roll. This move does not affect one-shot moves like Fissure, Guillotine, etc.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Minimize",
+  "desc": "You appear smaller to your creatures, increasing your evasion. For the duration, you gain an additional +2 to your AC.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Miracle Eye",
+  "desc": "You flash your eyes at the target, stunning them briefly and lowering their defenses. When activating this move, choose a target in range and force them to make a WIS save against your Move DC. On a failure, any modifiers to their AC are reset, and if they are Dark or Ghost-type, their immunities are relinquished for the duration. If, when losing immunity, the target’s secondary type gives it vulnerability or resistance to an attack of that type, it follows the secondary type for that effect.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/INT\n**Move Time:** 1 action\n**PP:** 20\n**Duration:** 1 minute\n**Range:** 50ft"
+}, {
+  "name": "Mirror Coat",
+  "desc": "When subject to a ranged attack, you can attempt to decrease the damage and send some back at the attacker in range. Using this reaction, the damage is decreased by 1d6 + MOVE. If this causes the damage to fall below zero, the attack is deflected and you may make a ranged attack roll to send it back at the attacker for 1d6 + MOVE psychic damage.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** CON/WIS\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Mirror Move",
+  "desc": "You mimic a target that you can see, in range. When you activate this move, choose a target in range and fully execute the most recent move used by the creature, using your own ability scores, level, and typing for saving throw DC, attack, and damage.",
+  "meta": "**Type:** Flying\n**Move Power:** Varies\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 50ft"
+}, {
+  "name": "Mirror Shot",
+  "desc": "You loose a damaging flash of light from your polished body. Make a ranged attack on a creature, dealing 1d10 + MOVE steel damage on a hit. On a hit, the target must make a CON save against your Move DC. On a failure, the target has disadvantage on its next attack roll.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Steel\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Mist Ball",
+  "desc": "You fire an explosive ball of damaging mist at a creature in range. Make a ranged attack against a target, doing 5d6 + MOVE psychic damage on a hit. If the natural attack roll is higher than 10, the target has disadvantage on any attack it makes before the end of its next turn..\n\n**Higher Levels:** The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** DEX/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 100ft"
+}, {
+  "name": "Mist",
+  "desc": "A light mist surrounds a target, offering a protective barrier. The target is immune to negative stat changes for the duration, but any current effects are still in place.",
+  "meta": "**Type:** Ice\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** 1 minute\n**Range:** 30ft"
+}, {
+  "name": "Misty Terrain",
+  "desc": "You cover the ground in a thin, healing mist that surrounds a 120 foot circle, centered on you. For 3 turns, no grounded creatures inside the mist can suffer from new status conditions. Grounded creatures are those that do not have a flying speed or Levitate, Magnet Rise, or similar ability.",
+  "meta": "**Type:** Fairy\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 3 rounds\n**Range:** Self (60ft radius)"
+}, {
+  "name": "Moonblast",
+  "desc": "You summon forth a powerful moonbeam that strikes a creature. Make a ranged attack on a target in range, dealing 2d8 + MOVE fairy damage on a hit. On a natural attack roll of 15 or more, the target has disadvantage on its next attack.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Fairy\n**Move Power:** DEX/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Moongeist Beam",
+  "desc": "You emit a sinister ray that explodes out from you in a 100 foot line, 5 feet wide. All creatures caught in the blast must make a DEX save against your Move DC, taking 5d6 + MOVE ghost damage on a failure or half as much on a success. This attack ignores any of the creatures abilities that would affect the user's ability to hit or deal full damage.\n\n**Higher Levels:** The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17.",
+  "meta": "**Type:** Ghost\n**Move Power:** DEX/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self (100ft line)"
+}, {
+  "name": "Moonlight",
+  "desc": "A ray of moonlight shines upon you, basking you in healing light. The user gains 2d12 + MOVE hit points. If this move is activated during the day, halve the total healing.\n\n**Higher Levels:** The dice roll for healing changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17",
+  "meta": "**Type:** Fairy\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Morning Sun",
+  "desc": "A ray of sunlight shines upon you, basking you in healing light. The user gains 2d12 + MOVE hit points. If this move is activated at night, halve the total healing.\n\n**Higher Levels:** The healing dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Mud Bomb",
+  "desc": "You throw a hard-packed mud ball at a creature. Make a ranged attack, dealing 1d10 + MOVE ground damage on a hit. On a hit, the target must make a CON save against your Move DC. On a failure, the target has disadvantage on its next attack roll. If activating a move that requires a save, the target(s) have advantage.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Ground\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Mud Shot",
+  "desc": "You fire a glob of mud at a creature, dealing damage with a chance to hinder the target's movement. Make a ranged attack against a creature in range, dealing 1d8 + MOVE ground damage on a hit. If the natural attack roll is higher than 15, the target's speed becomes 0 until the end of its next turn.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Ground\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Mud Sport",
+  "desc": "You cover yourself and all allies around you with thick mud, reducing the amount of electric damage taken for anyone affected. For the duration, you and any ally in range (when you initially activated this move) have resistance to electric-type attacks. If you were already resistant, you are now immune. If you were vulnerable, you now take regular damage. If you are immune to electric-type moves already, nothing happens.",
+  "meta": "**Type:** Ground\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 1 minute\n**Range:** Self (5ft radius)"
+}, {
+  "name": "Mud-Slap",
+  "desc": "You hurl mud at a target in range. Make a ranged attack roll, doing 1d4 + MOVE ground damage on a hit. On a hit, the target adds -1 to its attack rolls for the rest of the encounter. This decrease may be stacked, up to a maximum of -5 to hit. The target may take an action to remove any mud from its face, resetting the effect.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Ground\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Muddy Water",
+  "desc": "You fire a stream of muddy water at a creature in range. Make a ranged attack against a creature, dealing 2d8 + MOVE water damage. If the natural attack roll is 15 or higher, the target has disadvantage on its next attack.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Water\n**Move Power:** DEX/CON\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Multi-Attack",
+  "desc": "You strike out with inner power, depending on your type. Make a melee attack on a target, dealing 2d8 + MOVE damage of your current type.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Varies\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Mystical Fire",
+  "desc": "You summon forth a pair of mystical flames that dance around a target, dealing damage. Make a ranged attack roll against a target, dealing 1d12 + MOVE fire damage on a hit. If the target is hit with this attack, any attack roll it makes before the end of its next turn is rolled at disadvantage.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Fire\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Nasty Plot",
+  "desc": "You stimulate your brain with nasty thoughts. For the duration, you have advantage on any attacks with the Wisdom, Intelligence, or Charisma move power. If the attack requires a Wisdom, Intelligence, or Charisma saving throw, the target has disadvantage.",
+  "meta": "**Type:** Dark\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Natural Gift",
+  "desc": "You draw in power from your held berry, releasing it into a ranged attack. Make a ranged attack, dealing 1d12 + MOVE damage on a hit. The type is dependant on what berry you are holding, according to the chart below:\n\n| Type  | Berry|\n|  Normal  | Chilan |\n|  Fire  | Cherri, Occa |\n|  Water  | Chesto, Passho |\n|  Electric  | Pecha, Waccan |\n|  Grass  | Rawst, Rindo |\n|  Ice  | Aspear, Yache |\n|  Fighting  | Leppa, Chople |\n|  Poison  | Oran, Kebia |\n|  Ground  | Persim, Shucca |\n|  Flying  | Lum, Coba |\n|  Psychic  | Sitrus, Payapa |\n|  Bug  | Tanga |\n|  Rock  | Charti |\n|  Ghost  | Kasib |\n|  Dragon  | Haban |\n|  Dark  | Colbur |\n|  Steel  | Babiri, Razz |\n|  Fairy  | Roseli |\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Varies\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Nature Power",
+  "desc": "You call upon the powers of nature nearby and activate a move based on the terrain. The DM gets final say on what move you activate, but here are example terrain types:\n\n**Terrain** - Move\n**Cities/Roads/Buildings** - Swift\n**Sandy areas** - Earthquake\n**Volcanoes/Lava areas** - Fire Blast\n**Caves, Dark areas** - Shadow Ball\n**Rocky terrain, Mountains** - Rock Slide\n**Fields, Plains** - Stun Spore\n**Forests, Tall Grasslands** - Razor Leaf\n**Ponds/Swamps** - Bubblebeam\n**At sea** - Surf\n**Underwater** - Hydro Pump\n**Snowy** - Blizzard",
+  "meta": "**Type:** Normal\n**Move Power:** Varies\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Varies\n**Range:** Varies"
+}, {
+  "name": "Nature's Madness",
+  "desc": "You harness all the power of nature and send it at a creature in range. The target must make a CON save against your Move DC. On a failed save, the target loses half their current HP (minimum of 1 damage).",
+  "meta": "**Type:** Fairy\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Needle Arm",
+  "desc": "Your arms turn to jagged, thorny needles as you strike a creature. Make a melee attack on a creature, dealing 1d10 + MOVE grass damage on a hit. If the natural attack roll is a 15 or more, the target flinches.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Night Daze",
+  "desc": "A pitch black shockwave of dark energy rushes towards a target. Make a ranged attack roll, dealing 2d6 + MOVE dark damage on a hit. If the natural attack roll is 13 or more, the target rolls its next attack with disadvantage. If it activates a move that requires a saving throw, the target(s) have advantage on the roll.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** DEX/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Night Shade",
+  "desc": "You hit a target with a necrotic wave of dark energy. Make a ranged attack against a target. On a hit, the ghost damage is equal to 1d6 + the user’s level.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4+Level at level 5, 1d12+Level at level 10, and 4d4+Level at level 17.",
+  "meta": "**Type:** Ghost\n**Move Power:** WIS/INT\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Night Slash",
+  "desc": "You slash out at a creature with dark power. Make a melee attack, dealing 1d12 + MOVE dark damage on a hit. This attack scores a critical hit on natural attack rolls of 19 or 20.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Nightmare",
+  "desc": "You create a horrible nightmare in the mind of any sleeping creature in a 120 foot circle around you, inflicting 3d6 + MOVE ghost damage automatically. This move does not wake a sleeping creature.\n\n**Higher Levels:** The damage dice roll for this move changes to 4d6 at level 5, 5d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Ghost\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Self (60ft radius)"
+}, {
+  "name": "Noble Roar",
+  "desc": "You let out a stunning roar that intimidates a target. When targeted by an attack, use this reaction to impose disadvantage on the attack roll.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/CHA\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Nuzzle",
+  "desc": "You touch a creature with your electrified cheeks, sending electricity coursing through their veins. Make an attack roll against a creature. On a hit, the target takes 1d4 + MOVE electric damage and is forced to make a CON save against your Move DC, becoming paralyzed on a failure.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Electric\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Oblivion Wing",
+  "desc": "You extend your wings and use a dark beam of energy to absorb the target's life force. Make a ranged attack against a creature, dealing 3d8 + MOVE flying damage on a hit, recovering your own hit points by the amount of damage dealt.\n\n**Higher Levels:** The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17.",
+  "meta": "**Type:** Flying\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Octazooka",
+  "desc": "You send a blast of ink towards your creatures. Make a ranged attack roll, doing 1d10 + MOVE water damage on a hit. If the natural attack roll is 18 or more, the target must add -1 to attack rolls for the remainder of this combat.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Water\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Odor Sleuth",
+  "desc": "When you activate this move, choose a target in range. For the duration, the target cannot activate any move that would increase its AC. If it has already activated such a move, the effect ends immediately. In addition, for the duration, no creature in range has immunity to your Ghost, Normal, or Fighting-type moves.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 1 minute, Concentration\n**Range:** 30ft, Self"
+}, {
+  "name": "Ominous Wind",
+  "desc": "You stir up a gust of repulsive wind that strikes a creature in range. Make a ranged attack, dealing 1d10 + MOVE ghost damage on a hit. On a natural attack roll of 19 or 20, increase all of your ability scores by +1 while you remain in battle.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Ghost\n**Move Power:** WIS/DEX\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Origin Pulse",
+  "desc": "Your body glows a bright and brilliant blue, sending three beams of focused light at any creature(s) in range. Make a ranged attack for each beam, dealing 1d10 + MOVE water damage on each successful hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Water\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 100ft"
+}, {
+  "name": "Outrage",
+  "desc": "You go into a rampage, doing several attacks without control for three rounds. This move automatically hits for 1d6 + MOVE dragon damage in the first round, 2d6 + MOVE dragon damage in the second round, and 4d6 + MOVE dragon damage in the third round. When this move ends, either after the third round or from breaking concentration, you become confused. This attack stops if concentration is broken, or the user becomes incapacitated.\n\n**Higher Levels:** The dice used for this move changes to a d8 at level 5, a d10 at level 10, and a d12 at level 17.",
+  "meta": "**Type:** Dragon\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 3 rounds, Concentration\n**Range:** Melee"
+}, {
+  "name": "Overheat",
+  "desc": "With a roar, flames burst from your body in a 30 foot circle, centered on you. Any creature in range must roll a DEX saving throw against your Move DC, taking 5d4 + MOVE fire damage on a failure, or half as much on a success. The power of the move exhausts you, and your next attack is done at disadvantage. If your next attack requires a creature saving throw, they have advantage.\n\n**Higher Levels:** The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17.",
+  "meta": "**Type:** Fire\n**Move Power:** STR/CON\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self (15ft radius)"
+}, {
+  "name": "Pain Split",
+  "desc": "You split pain from your injuries with your attacker. Target a creature in range, forcing them to make a CON save against your Move DC. On a fail, both you and your attacker change your current health points to the average of the two. If this causes either creature to go above maximum health, they take their maximum health instead.",
+  "meta": "**Type:** Normal\n**Move Power:** CON/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Parabolic Charge",
+  "desc": " A sweeping electric charge arcs around you, stealing some of the target's energy. Force all creatures in a 60 foot circle, centered on you, to make a CON save against your Move DC, taking 1d10 + MOVE electric damage on a failure. Recover hit points equal to half the total damage dealt, but no more than 5 times your level.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Electric\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Self (30ft radius)"
+}, {
+  "name": "Parting Shot",
+  "desc": "You deliver a brutal parting threat just before switching out. Force a creature in range to make a WIS save against your Move DC, then switch out immediately. On a failure, the target deals half damage on their next turn if using a damaging move.",
+  "meta": "**Type:** Dark\n**Move Power:** CHA\n**Move Time:** 1 bonus action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 50ft"
+}, {
+  "name": "Pay Day",
+  "desc": "You strike a target, causing it to shake out its purse. Make a melee attack, doing 1d6 + MOVE normal damage on a hit. In addition, 10x the user’s level in cash is scattered on the floor until the end of combat. This release of funds can only occur once per target per combat.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/DEX/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Payback",
+  "desc": "You strike hard in retaliation. Make a melee attack, dealing 1d8 + MOVE dark damage on a hit. If the target damaged you on the turn immediately before yours, double the dice roll for the damage of this attack.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Peck",
+  "desc": "You hammer down on a target with a peck attack. Make a melee attack roll on a target, doing 1d6 + MOVE flying damage on a successful hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17.",
+  "meta": "**Type:** Flying\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 20\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Perish Song",
+  "desc": "You perform a song with devastating consequences to creatures that hear it. All creatures in range (including you) must make a CON saving throw against your Move DC. For any that fail, they faint in 3 rounds, on their turn, unless fleeing or switched out by their trainer before the end of the three rounds.",
+  "meta": "**Type:** Normal\n**Move Power:** CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 3 rounds\n**Range:** Self (80ft line)"
+}, {
+  "name": "Petal Blizzard",
+  "desc": "You stir up a blizzard of sharp petals that swirl around you. Any creature in a 60 ft circle, centered on you, must make a DEX save against your Move DC, taking 2d8 + MOVE grass damage on a failure, or half as much on a success.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Self (30ft radius)"
+}, {
+  "name": "Petal Dance",
+  "desc": "You dance around, releasing a flurry of sharp leaf attacks against a creature in range. Make a ranged attack roll, dealing 1d10 + MOVE grass damage on a hit. On the following turn, you may choose to use this action again to hit automatically, but if you do, you become confused at the end of your turn.\n\n**Higher Levels:** The damage dice rolls for this move change to 2d6 at level 5, 3d6 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** DEX/CHA\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 80ft"
+}, {
+  "name": "Phantom Force",
+  "desc": "You disappear from view and prepare to surprise your target with an attack. When you activate this move, you become invisible and immune to any attacks of opportunity. You cannot be targeted by attacks while you are invisible. On your next turn, you use your action to reappear and make a melee attack against a creature, with advantage, dealing 2d8 + MOVE ghost damage on a successful hit. Protect and Detect reactions may not be used when hit by this attack.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Ghost\n**Move Power:** DEX/WIS\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Photon Geyser",
+  "desc": "A pillar of light erupts from the ground in a 20ft radius, 80ft high cylinder centered on a point in range. Any creature caught in the blast must make a DEX save against your Move DC, taking 5d6 + MOVE psychic damage on a fails save, or half as much on a success. This move ignores any of the creatures abilities that would affect the user's ability to hit or deal full damage.\n\n**Higher Levels:** The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** STR/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 100ft"
+}, {
+  "name": "Pin Missile",
+  "desc": "You strike a creature with sharp projectiles in quick succession. Make a ranged attack roll, doing 1d4 + MOVE bug damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, another projectile hits again for an additional 1d4 bug damage. Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional hits.\n\n**Higher Levels:** The damage dice rolls for this move change to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Bug\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Play Nice",
+  "desc": "You convince a creature that you mean it no harm. Force a creature to make a CHA saving throw against your Move DC. On a failure, any attack the target makes on its next turn is rolled at disadvantage. If the target activates a move that requires a saving throw, you have advantage on the roll.",
+  "meta": "**Type:** Normal\n**Move Power:** CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Play Rough",
+  "desc": "You fake a creature out with a playful attack that quickly becomes too rough. Make a melee attack against a creature, dealing 2d8 + MOVE fairy damage on a hit. On natural attack rolls of 19 or 20, the target adds -1 to any attack it makes for the remainder of combat. This effect can be stacked to a maximum of -5 to hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Fairy\n**Move Power:** STR/DEX/CHA\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Pluck",
+  "desc": "You peck at a target, attempting to grab their held berry. Make a melee attack on a creature, dealing 1d10 + MOVE flying damage on a hit. On a hit, if the target is holding a berry, you swallow it immediately and gain its effect.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Flying\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Poison Fang",
+  "desc": "You lash forward with poisonous venom. Make a melee attack roll against a creature, dealing 1d8 + MOVE poison damage on a hit, forcing the target to make a CON save against your Move DC. On a failure, the creature is poisoned. A creature poisoned by this move takes double the normal poison damage at the end of each of its turns.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Poison\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Poison Gas",
+  "desc": "You create a fog of poisonous gas in a 15 foot radius, centered on a point within range. Creatures that begin their turn in the area take 1d4 + MOVE poison damage and must succeed on a CON save against your Move DC or become poisoned. The gas cloud dissipates at the beginning of your next turn.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17.",
+  "meta": "**Type:** Poison\n**Move Power:** CON\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 1 round\n**Range:** 30ft"
+}, {
+  "name": "Poison Jab",
+  "desc": "You stab a creature with an appendage steeped in poison. Make a melee attack on a creature, dealing 2d6 + MOVE poison damage on a hit. On a natural attack roll of 16 or higher, the target is poisoned.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Poison\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Poison Powder",
+  "desc": "You release a cluster of poisonous spores that burst into the air above a target. The creature must succeed on a CON save against your Move DC, becoming poisoned on a fail.",
+  "meta": "**Type:** Poison\n**Move Power:** CON\n**Move Time:** 1 action\n**PP:** 20\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Poison Sting",
+  "desc": "You strike out at a creature with a poisonous sting. Make a melee attack roll against a target, doing 1d4 + MOVE poison damage on a hit. If the natural attack roll is 18 or more, the creature is poisoned.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17.",
+  "meta": "**Type:** Poison\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Poison Tail",
+  "desc": "Poisonous barbs sprout from your tail as you swing it at a creature. Make a melee attack against a creature, dealing 1d8 + MOVE poison damage on a hit. If the natural attack roll is a 19 or 20, the move scores a critical hit and the target is poisoned.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Poison\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Pollen Puff",
+  "desc": "You send forth a flurry of pollen at a target in range. Make a ranged attack roll, dealing 2d8 + MOVE bug damage on a hit. If the target is an ally, this move automatically hits and heals for the amount of damage instead.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Bug\n**Move Power:** DEX/CON\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Pound",
+  "desc": "You crush a creature with a pound attack. Make a melee attack roll against a target, doing 1d6 + MOVE normal damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 20\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Powder Snow",
+  "desc": "You send a blast of cold snow at a creature. Make a ranged attack roll on a creature, doing 1d6 + MOVE ice damage on a hit. If the natural attack roll is 18 or higher, the target is frozen.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Ice\n**Move Power:** DEX\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Powder",
+  "desc": "You quickly coat a creature in an explosive powder. When a creature in range activates a fire-type move, you may use your reaction to release a spray of flammable powder that explodes and automatically deals 2d8 + MOVE typeless damage to the target.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Bug\n**Move Power:** CON\n**Move Time:** 1 reaction\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Power Gem",
+  "desc": "A ray of light bursts out of your gemstone, damaging a creature in range. Make a ranged attack, dealing 2d6 + MOVE rock damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** DEX/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Power Split",
+  "desc": "You use your psychic power to change your offense to match the target's the best you can. Force a creature in range to make a CHA save against your Move DC. On a failure, choose either your STR, DEX, or WIS. For the duration, replace the chosen ability score with the average of your current score and the target's score.",
+  "meta": "**Type:** Psychic\n**Move Power:** INT/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 minute, Concentration\n**Range:** 30ft"
+}, {
+  "name": "Power Swap",
+  "desc": "As a bonus action, force a creature in range to make a WIS save against your Move DC. On a failure, you employ your psychic power to swap a single ability score with a creature until the end of their next turn, for purposes of attack and damage rolls.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/INT\n**Move Time:** 1 bonus action\n**PP:** 3\n**Duration:** 1 round\n**Range:** 40ft"
+}, {
+  "name": "Power Trick",
+  "desc": "You employ your psychic power to switch your own attack and defense. Until the end of your next turn, switch your AC with an ability score of your choice (Constitution not included)",
+  "meta": "**Type:** Psychic\n**Move Power:** None\n**Move Time:** 1 bonus action\n**PP:** 5\n**Duration:** 1 round\n**Range:** Self"
+}, {
+  "name": "Power Trip",
+  "desc": "You boast your strength and attack a target. Make a melee attack, doing 1d4 + MOVE dark damage on a hit. For each unique stat change affecting the user, add an additional damage dice.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 1d10 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Power Whip",
+  "desc": "You violently whirl your tentacles or vines towards a target. Make a melee attack against a creature, dealing 2d10 + MOVE grass damage on a hit\n\n**Higher Levels:** The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Power-Up Punch",
+  "desc": "You strike out with a powerful punch that increases in strength the more you hit. Make a melee attack on a target, dealing 1d6 + MOVE fighting damage on a successful hit against the same creature. For each successful hit, add an additional damage dice, with a maximum number of damage dice equal to double the original amount. The damage resets if you miss or target a different creature.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 3d6 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Precipice Blades",
+  "desc": "You gather in the natural energy of the land around you and manifest all of the power into fearsome blades of stone. Make three ranged attack rolls against any creature(s) in range, dealing 1d10 + MOVE ground damage on each successful hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Ground\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 100ft"
+}, {
+  "name": "Present",
+  "desc": "You send a booby-trapped gift to a creature. Make a ranged attack on a creature in range. On a hit, the present explodes, doing 1d6 + MOVE normal damage. If the natural attack roll is 2 or lower, however, regardless if it hits, the present provides the target with 1d6 + MOVE hit points instead.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** DEX/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 50ft"
+}, {
+  "name": "Prismatic Laser",
+  "desc": "You use the power of a prism to fire a collection of dangerous lasers in a 60 foot line, 5ft wide.  Any creature caught in the line must succeed a DEX save or take 4d6 + MOVE psychic damage on a fail, and half as much on a save.  This move cannot be used on consecutive turns by the same creature.\n\n**Higher Levels:** The damage dice roll for this move changes to 5d6 at level 5, 6d8 at level 10, and 6d12 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** DEX/WIS\n**Move Time:** 1 action, recharge\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self (60ft line)"
+}, {
+  "name": "Protect",
+  "desc": "You sense incoming danger and are able to quickly avoid it. When you are the recipient of the damage and/or effects of a move, you may automatically avoid the damage/effects on the first instance of this reaction. On future instances of this move in the same combat, you must roll higher than a 15 on a d20 roll for the reaction to be successful. This reaction may not be used to guard against the damage/effects that result from a natural 20 attack roll.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Psybeam",
+  "desc": "You send a beam of invisible, psychic energy at a target in range. The target must make a WIS saving throw against your Move DC, taking 2d6 + MOVE psychic damage on a fail, or half as much on a success. Creatures that fail the save by 5 or more become confused.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17",
+  "meta": "**Type:** Psychic\n**Move Power:** DEX/INT/WIS\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 60ft"
+}, {
+  "name": "Psych Up",
+  "desc": "You sync up with a creature, copying any positive or negative stat changes affecting them due to weather or moves this combat.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Psychic Fangs",
+  "desc": "You materialize a set of large fangs that bite at a creature with psychic energy. Make a ranged attack, dealing 2d6 + MOVE psychic damage on a hit. On a hit, this move bypasses and ends Aurora Veil, and is not affected by Light Screen and Reflect.\n\n**Higher Levels:** The damage dice roll for this move changes\nto 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** STR/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Psychic Terrain",
+  "desc": "Psychic energy emerges from the ground in a 80ft circle, centered on you. Beginning at the end of your turn, for three rounds, all grounded creatures in the affected area are unable to use bonus actions. Grounded creatures are those that do not have a flying speed or Levitate, Magnet Rise, or similar ability. In addition, creatures may double their MOVE modifier on damage rolls from psychic-type moves activated inside the area.",
+  "meta": "**Type:** Psychic\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 3 rounds\n**Range:** Self (40ft radius)"
+}, {
+  "name": "Psychic",
+  "desc": "You tap into a target’s mind, damaging their will to fight. Make a ranged attack on a creature in range, doing 2d8 + MOVE psychic damage on a hit. If the natural attack roll is 18 or higher, the target becomes confused.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** INT/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Psycho Boost",
+  "desc": "You send an extremely powerful wave of psychic energy at creatures in a 60 foot cone. Creatures in the wave must make a WIS save against your Move DC, taking 5d6 + MOVE psychic damage on a failure, or half as much on a success. The power of the move exhausts you, and your next attack is done at disadvantage. If your next attack requires a creature saving throw, they have advantage.\n\n**Higher Levels:** The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/INT\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self (60ft cone)"
+}, {
+  "name": "Psycho Cut",
+  "desc": "You tear at a target with blades formed by psychic power. Make a ranged attack on a creature, dealing 1d12 + MOVE psychic damage on a hit. This move scores a critical hit on natural rolls of 19 or 20.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** DEX/WIS\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Psycho Shift",
+  "desc": "You employ your psychic power to transfer a status condition to someone else. Choose a willing ally (or yourself) and a creature in range. Force the target to make a WIS save against your Move DC. on a failure, a status affecting the ally (or you) is transferred to the target instead.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/INT\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Psyshock",
+  "desc": "You materialize a psychic wave that shocks a creature. Make a ranged attack, dealing 2d6 + MOVE psychic damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** INT/WIS\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Psystrike",
+  "desc": "You materialize a psychic wave that shocks a creature. Make a ranged attack, dealing 2d6 + MOVE psychic damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** INT/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Psywave",
+  "desc": "You emit a wave of psychic energy in a 40 foot line, 5 feet wide. Each creature caught in the wave must make a WIS save against your Move DC, becoming confused on a fail.",
+  "meta": "**Type:** Psychic\n**Move Power:** INT/WIS\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Self (40ft line)"
+}, {
+  "name": "Punishment",
+  "desc": "You send dark energy to punish a creature. Make a ranged attack against a creature, dealing 1d10 + MOVE dark damage on a hit. If the target is currently under the influence of a move or ability that boosts its attack, damage, or AC, increase the damage by one damage dice for each effect.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d10 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/WIS\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Purify",
+  "desc": "You extend a healing energy to remove all status effects from a target. If a status effect is healed, it also restores the user's current hit points by twice its level. The user of this move cannot target itself.",
+  "meta": "**Type:** Poison\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** 15ft"
+}, {
+  "name": "Pursuit",
+  "desc": "As a reaction, when a creature is fleeing or is switched out by their trainer, you may make a ranged attack roll against it, doing 1d6 + MOVE dark damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/DEX\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Quash",
+  "desc": "You send dark energy at a creature in range, reducing their will to fight. The target must make a WIS save against your Move DC. On a failure, it must move to the bottom of the initiative order for this round only. Targets that have already taken their turn in this round are unaffected.",
+  "meta": "**Type:** Dark\n**Move Power:** STR/WIS\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Quick Attack",
+  "desc": "You lash out with a quick unarmed strike at a creature in range. As a bonus action, you can immediately move up to 10ft and make a melee attack against a creature in range without taking an attack of opportunity, doing 1d4 normal damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 1d10 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** DEX\n**Move Time:** 1 bonus action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Quick Guard",
+  "desc": "You have the ability to rush to the aid of an ally at the start of combat. If an ally in range (or you) is attacked on the very first turn of the very first round of combat, you may use your reaction to negate any damage dealt.",
+  "meta": "**Type:** Fighting\n**Move Power:** None\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Quiver Dance",
+  "desc": "You lightly perform a mystical dance. For the duration, add +1 to your AC, attack rolls, and damage.\n\n**Higher Levels:** Add +2 to your AC at level 10 and above",
+  "meta": "**Type:** Bug\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Rage Powder",
+  "desc": "You scatter a cloud of irritating powder, drawing attacks to yourself. Any creature in a 15 foot cone must make a WIS saving throw against your Move DC. On a failure, the creature(s) can only use damaging moves that target you for the duration. Any creature affected can repeat the save at the end of each of its turns to shake off the effect.",
+  "meta": "**Type:** Bug\n**Move Power:** CON/CHA\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 1 minute\n**Range:** Self (15ft cone)"
+}, {
+  "name": "Rage",
+  "desc": "You go into a fit of rage, attacking with relentless fury. While you are raging, you gain +1 on all damage rolls (only once per move), have resistance to normal damage, and have advantage on all Strength checks. Your rage ends if you drop concentration or if your turn ends and you have not attacked a hostile target since your last turn, or taken any damage since then.\n\n**Higher Levels:** For damage when raging, the bonus changes to +2 at level 5, +4 at level 10, and +6 at level 17",
+  "meta": "**Type:** Normal\n**Move Power:** STR\n**Move Time:** 1 bonus action\n**PP:** 3\n**Duration:** 1 minute, Concentration\n**Range:** Self"
+}, {
+  "name": "Rain Dance",
+  "desc": "You summon a heavy rainfall that covers the battlefield for 5 rounds.",
+  "meta": "**Type:** Water\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 5 rounds\n**Range:** Self"
+}, {
+  "name": "Rapid Spin",
+  "desc": "You strike out with an incredibly fast spinning move. All creatures within melee range must make a DEX save against your Move DC, taking 1d4 + MOVE normal damage on a failure, or half as much on a success. In addition, this move automatically frees the user from Leech Seed or anything causing it to be grappled or restrained. It is removed from these statuses before the saving throw is made.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Razor Leaf",
+  "desc": "You send a razor sharp leaf at a creature in range at tremendous speed. Make a ranged attack roll, doing 1d8 + MOVE grass damage on a hit. Razor Leaf results in a critical hit on 19s and 20s\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Grass\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 15\n**Duration:** Instantaneous\n**Range:** 80ft"
+}, {
+  "name": "Razor Shell",
+  "desc": "You strike a creature with a razor sharp shell. Make a melee attack on a creature, dealing 1d12 + MOVE water damage on a hit. On natural attack rolls of 18 or higher, lower the creatures AC by 1. This decrease may be stacked, up to a maximum of -5 to AC.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Water\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Razor Wind",
+  "desc": "When you use this move, strong winds begin to circle around you, granting +2 to AC. On your next turn, if you keep your concentration, you release those winds as an action in a 20 foot radius, centered on you. Each creature in the area must make a DEX save against your Move DC, taking 2d6 + MOVE normal damage on a fail, or half as much on a success.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/DEX\n**Move Time:** 1 action, charge\n**PP:** 5\n**Duration:** 1 round, Concentration\n**Range:** Self (20ft radius)"
+}, {
+  "name": "Recover",
+  "desc": "You extend a healing energy to recover the hit points of a creature in range. The target regains 1d6 + MOVE hit points.\n\n**Higher Levels:** The dice roll for healing increases to 2d6 at level 5, 4d6 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Recycle",
+  "desc": "You summon a previously discarded item back into your hands. If you used a consumable held item any time within the last 5 turns, you can activate this move to take advantage of the same effect one last time. This move may not be used in the same round the held item was used.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 bonus action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Reflect Type",
+  "desc": "Your body flashes into a mirror for just a moment. When it returns to normal, you take on the type of a creature in range.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 1 minute, Concentration\n**Range:** 40ft"
+}, {
+  "name": "Reflect",
+  "desc": "When you are subject to a melee attack, use your reaction to take half the damage dealt now and on any melee attack that targets you until the beginning of your next turn.",
+  "meta": "**Type:** Psychic\n**Move Power:** None\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Refresh",
+  "desc": "A wave of healing energy washes over you, curing poison, paralysis, and burn.",
+  "meta": "**Type:** Normal\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Relic Song",
+  "desc": "You sing an ancient song that damages creatures in range with the chance to put them asleep. Any creature in a 20ft circle, centered on you, must make a CON save against your Move DC, taking 1d12 + MOVE normal damage on a failure, or half as much ona success. Any creature that fails the save by 5 or more is put to sleep.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** CHA/WIS\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self (20ft radius)"
+}, {
+  "name": "Rest",
+  "desc": "When you activate this move, you fall asleep after the end of your turn, but recover 4d6 + MOVE hit points in the process. You do not regain health if you do not fall asleep.\n\n**Higher Levels:** The dice roll for healing increases to 6d6 at level 5, 8d6 at level 10, and 8d10 at level 17.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** Self"
+}, {
+  "name": "Retaliate",
+  "desc": "You rush to avenge a fallen ally. When a creature causes an ally to faint, you may move up to your speed to immediately rush forward and make a melee attack roll on the target, dealing 1d12 + MOVE normal damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/DEX\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Return",
+  "desc": "You lash out at a creature, in hopes it will please your trainer. Make a melee attack roll against a creature, doing 1d6 + MOVE on a hit. When you make this attack, add an additional bonus to hit and damage equal to the number of levels you are above zero on the Loyalty Chart.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Revelation Dance",
+  "desc": "You strike out at a target with an aggressive dance.  Make a melee attack, dealing 2d8 + MOVE damage on a hit. Revelation Dance deals damage with a different type depending on the style of Oricorio:\n\n| Style  | Damage Type |\n| Baile Style | Fire |\n| Pom-Pom Style | Electric |\n| Pa’u Style | Psychic |\n| Sensu Style | Ghost |\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** DEX/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Revenge",
+  "desc": "You invoke a fight within to retaliate against a creature that damages you. As a reaction, when you are hit with a melee attack that deals damage, make a melee attack roll against your attacker, with disadvantage. On a hit, deal the same amount of fighting type damage back at your attacker (maximum of 5x your current level).\n\n**Higher Levels:** The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR/DEX\n**Move Time:** 1 reaction\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Reversal",
+  "desc": "You unleash an all out attack that is stronger the less HP you have. Make a melee attack roll against a creature, doing 1d6 + MOVE fighting damage on a hit. If you are below 50% of your maximum health, double the damage. If you are at 10% or below of your maximum health, triple the damage. The multiplier for this attack occurs before the multiplier for resistances or vulnerabilities.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Roar of Time",
+  "desc": "You unleash a roar that has the power to distort time. All creatures within 40 feet of you must make a WIS save against your Move DC, taking 5d6 + MOVE dragon damage on a failure, or half as much on a success. For any creature that failed the save by 5 or more, you may immediately take another action against them. Roar of Time may not be used as one of the additional actions. This move drains you of energy, and you may not make any attack until after the end of your next turn.\n\n**Higher Levels:** The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17",
+  "meta": "**Type:** Dragon\n**Move Power:** STR/WIS\n**Move Time:** 1 action, recharge\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** Self (40ft radius)"
+}, {
+  "name": "Roar",
+  "desc": "You release an intimidating roar at all opponents within 15 feet of you. Opponents that can hear you must make a WIS save against your Move DC. On a fail, the creature is frightened and is forced to immediately move up to its speed in a straight line away from you, or until met with an impeding force (does not provoke attacks of opportunity). A creature frightened in this way must make a WIS save against your Move DC at the end of each of its turns to remove the effect.",
+  "meta": "**Type:** Normal\n**Move Power:** STR/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Self (15ft radius)"
+}, {
+  "name": "Rock Blast",
+  "desc": "You summon a series of rocks that fire their way  towards a creature. Make a ranged attack roll, doing 1d4 + MOVE rock damage on a hit. After successfully hitting a target, roll a d4. On a result of 3 or 4, you may immediately hit again for an additional 1d4 rock damage. Continue this process until you fail to roll a 3 or 4 on the d4 roll, up to a maximum of four additional hits.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Rock Climb",
+  "desc": "You charge at a target with an attack that attempts to confuse. Make a melee attack, dealing 2d8 + MOVE normal damage on a hit. On natural attack rolls of 17 or higher, the target becomes confused.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Rock Polish",
+  "desc": "You polish your body to a fine shine to reduce friction. When activating this move, increase your AC by 2 and your speed by 20 feet for three rounds.",
+  "meta": "**Type:** Rock\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 3 rounds\n**Range:** Self"
+}, {
+  "name": "Rock Slide",
+  "desc": "Large boulders appear above a target creature in range, crashing down on top of them. The target must make a STR save against your Move DC, taking 1d12 + MOVE rock damage and falling prone on a failed save, and half as much without falling prone on a success.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** Instantaneous\n**Range:** 80ft"
+}, {
+  "name": "Rock Smash",
+  "desc": "You strike out with a rock-crushing attack that may lower a user’s defense. Make an attack roll against a creature, doing 1d6 + MOVE fighting damage on a hit. If the natural attack roll is 19 or 20, the target’s AC decreases by 1 while it remains in battle.\n\n**Higher Levels:** The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Rock Throw",
+  "desc": "You hurl a rock at a target in range. Make a ranged attack roll, doing 1d8 + MOVE rock damage on a hit.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 100ft"
+}, {
+  "name": "Rock Tomb",
+  "desc": "You summon a collection of boulders that attempt to surround a target. Force a creature in range to make a STR saving throw against your Move DC, taking 1d10 + MOVE rock damage and becoming restrained on a failure, or half as much without being restrained on a success. If it fails, at the beginning of each of its turns, it may attempt to escape with a STR save against your Move DC. While a creature is restrained, you may continue this move, as an action, to deal an automatic 1d10 + MOVE rock damage.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 30ft"
+}, {
+  "name": "Rock Wrecker",
+  "desc": "You summon a huge boulder and launch it at a target in range. Make a ranged attack, dealing 3d10 + MOVE rock damage on a hit. This move saps you of energy, and may not activate it again until after the end of your next turn.\n\n**Higher Levels:** The damage dice roll for this move changes to 6d6 at level 5, 8d6 at level 10, and 7d12 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR\n**Move Time:** 1 action, recharge\n**PP:** 3\n**Duration:** Instantaneous\n**Range:** 40ft"
+}, {
+  "name": "Role Play",
+  "desc": "You attempt to copy a creature's abilities for the duration. Select a target in range and force them to make a WIS saving throw against your Move DC. On a failure, replace one of your own current abilities with one of theirs.",
+  "meta": "**Type:** Psychic\n**Move Power:** WIS\n**Move Time:** 1 action\n**PP:** 3\n**Duration:** 1 minute\n**Range:** 50ft"
+}, {
+  "name": "Rolling Kick",
+  "desc": "You swing your feet around in a wide arc to strike a target. Make a melee attack roll, doing 1d10 + MOVE fighting damage on a hit. If the natural attack roll is 18 or more, the target flinches.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.",
+  "meta": "**Type:** Fighting\n**Move Power:** STR/DEX\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Rollout",
+  "desc": "You roll into a target, repeatedly making attacks with increasing strength. Make a melee attack on a creature, dealing 1d6 + MOVE rock damage on a hit. If you use this move on your turn in consecutive rounds, double the dice on each successful attack for a maximum of 5 attacks, in which case the damage would reset. Ex: 1d6 on first hit, 2d6 on second, 4d6, 8d6, 16d6. The damage resets if any of the attacks fail to damage a creature, if your speed is reduced to 0, or if you are incapacitated.\n\n**Higher Levels:** The damage dice changes to a d8 at level 5, a d10 at level 10, and a d12 at level 17.",
+  "meta": "**Type:** Rock\n**Move Power:** STR\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** Melee"
+}, {
+  "name": "Roost",
+  "desc": "You land on the ground to rest your body. When activated, your flying speed decreases to zero, and you lose your flying type for as long as you remain on the ground. At the beginning of your next turn, if you have not left the ground, recover 2d6 + MOVE hit points\n\n**Higher Levels:** The damage dice roll for this move changes to 3d6 at level 5, 5d6 at level 10, and 8d6 at level 17.",
+  "meta": "**Type:** Flying\n**Move Power:** CON\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 1 round\n**Range:** Self"
+}, {
+  "name": "Rototiller",
+  "desc": "You imbue the ground around you with a mystical layer of natural energy, like tilling fresh soil. For three rounds, grass-type creatures double their STAB bonus when activating a grass-type move within the affected area.",
+  "meta": "**Type:** Ground\n**Move Power:** None\n**Move Time:** 1 action\n**PP:** 5\n**Duration:** 3 rounds\n**Range:** Self (50ft radius)"
+}, {
+  "name": "Round",
+  "desc": "You attack a creature's mind with a harsh song. Select a target in range and force them to make a WIS save against your Move DC. On a failure, the target takes 1d10 + MOVE normal damage. If an ally in range also knows this move, they can join in the song as a reaction to add an additional damage dice.\n\n**Higher Levels:** The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d10 at level 17.",
+  "meta": "**Type:** Normal\n**Move Power:** WIS/CHA\n**Move Time:** 1 action\n**PP:** 10\n**Duration:** Instantaneous\n**Range:** 40ft"
+}]
