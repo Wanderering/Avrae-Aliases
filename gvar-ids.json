@@ -21,5 +21,13 @@
   "Pokemon5e/Johto Region/practice/languages.gvar":"1f0e238c-508a-435a-9e8a-c42e7e5de46f",
   "Pokemon5e/Johto Region/practice/weapons.gvar":"cdf99c0b-fe06-4a6e-a31e-78fb72d1db57",
   "Pokemon5e/Johto Region/practice/tools.gvar":"0f04ee93-790d-401f-b91d-a42a7f2c7760",
-  "Pokemon5e/Johto Region/p5e Homebrew/Johto Region.gvar":"9558681c-0426-42a7-8a16-4c95d8feeb36"
+  "Pokemon5e/Johto Region/p5e Homebrew/Johto Region.gvar":"9558681c-0426-42a7-8a16-4c95d8feeb36",
+  "Pokemon5e/p5e/Abilities/abilities.gvar":"68407cf2-1161-4994-a567-7d112a44eb71",
+  "Pokemon5e/p5e/Items/items.gvar":"27a78e34-1aaa-4481-a527-88382d7e0f4b",
+  "Pokemon5e/p5e/Items/items2.gvar":"0d86e2e5-86dc-4660-b66e-f29ca0a08a20",
+  "Pokemon5e/p5e/Rules/rules.gvar":"63f55778-c21b-4665-a3aa-d9122becc7ed",
+  "Pokemon5e/p5e/Moves/A-E.gvar":"0ebfd586-2819-4fdc-a22e-36a4a3573009",
+  "Pokemon5e/p5e/Moves/F-L.gvar":"02dadc2f-e067-49da-828e-d055673861d8",
+  "Pokemon5e/p5e/Moves/M-R.gvar":"3b9db95b-6820-4ad8-9b67-e32522afd6cc",
+  "Pokemon5e/p5e/Moves/S-Z.gvar":"e4b19871-4430-4319-8f99-12a514b78ac6"
 }
