@@ -2,20 +2,85 @@ embed <drac2>
 out = []
 args = &ARGS&
 options = ["rule", "item", "ability", "move", "homebrew"]
-homebrew = get_svar("p5ehomebrew", "")
-homebrew = load_json(get_gvar(homebrew)) if homebrew else ""
+category = ""
+lookup = ""
+rules = load_json(get_gvar("63f55778-c21b-4665-a3aa-d9122becc7ed"))
+abilities = load_json(get_gvar("68407cf2-1161-4994-a567-7d112a44eb71"))
+items = load_json(get_gvar("27a78e34-1aaa-4481-a527-88382d7e0f4b"))
+items.append(load_json(get_gvar("0d86e2e5-86dc-4660-b66e-f29ca0a08a20")))
+moves = load_json(get_gvar("0ebfd586-2819-4fdc-a22e-36a4a3573009"))
+moves.append(load_json(get_gvar("02dadc2f-e067-49da-828e-d055673861d8")))
+moves.append(load_json(get_gvar("3b9db95b-6820-4ad8-9b67-e32522afd6cc")))
+moves.append(load_json(get_gvar("e4b19871-4430-4319-8f99-12a514b78ac6")))
 if len(args) > 1:
-    if args[0] in options:
-        lookup = str(" ".join(args[1:])).lower()
-    else:
-        lookup = str(" ".join(args)).lower()
+    lookup = str(" ".join(args[1:])).lower()
     for x in options:
-        if args[0] in x:
+        if args[0].lower() in x or x in args[0].lower():
             category = x
-        break
-    table = 
-elif args:
-    # display items for the selected option above
-else:
-    #what to do if there are no arguments.  Probably call the help, I guess?
+            break
+if category == "homebrew":
+    servbrew = get_svar('p5ehomebrew')
+    if not servbrew:
+        return err(f"You do not have any homebrew set up.  Run `{ctx.prefix}{ctx.alias}` to see how to set it up.")
+    homebrew = load_json(get_gvar(servbrew)) if servbrew else ""
+    for thing in homebrew:
+        if lookup == thing.name.lower():
+            out.append(f'-title "{thing.name}"')
+            out.append(f'-desc "{thing.desc}"')
+            out.append(f'-f "{thing.meta}"')
+            break
+        elif lookup in thing.name.lower():
+            out.append(f'-title "{thing.name}"')
+            out.append(f'-desc "{thing.desc}"')
+            out.append(f'-f "{thing.meta}"')
+            break 
+elif category == "rule":
+    for rule in rules:
+        if lookup == rule.name.lower():
+            out.append(f'-title "{rule.name}"')
+            out.append(f'-desc "{rule.desc}"')
+            out.append(f'-f "{rule.meta}"')
+            break
+        elif lookup in rule.name.lower():
+            out.append(f'-title "{rule.name}"')
+            out.append(f'-desc "{rule.desc}"')
+            out.append(f'-f "{rule.meta}"')
+            break
+elif category == "item":
+    for item in items:
+        if lookup == item.name.lower():
+            out.append(f'-title "{item.name}"')
+            out.append(f'-desc "{item.desc}"')
+            out.append(f'-f "{item.meta}"')
+            break
+        elif lookup in item.name.lower():
+            out.append(f'-title "{item.name}"')
+            out.append(f'-desc "{item.desc}"')
+            out.append(f'-f "{item.meta}"')
+            break    
+elif category == "ability":
+    for ability in abiities:
+        if lookup == ability.name.lower():
+            out.append(f'-title "{ability.name}"')
+            out.append(f'-desc "{ability.desc}"')
+            out.append(f'-f "{ability.meta}"')
+            break
+        elif lookup in ability.name.lower():
+            out.append(f'-title "{ability.name}"')
+            out.append(f'-desc "{ability.desc}"')
+            out.append(f'-f "{ability.meta}"')
+            break
+elif category == "move":
+    for move in moves:
+        if lookup == move.name.lower():
+            out.append(f'-title "{move.name}"')
+            out.append(f'-desc "{move.desc}"')
+            out.append(f'-f "{move.meta}"')
+            break
+        elif lookup in move.name.lower():
+            out.append(f'-title "{move.name}"')
+            out.append(f'-desc "{move.desc}"')
+            out.append(f'-f "{move.meta}"')
+            break 
+return " ".join(out)
 </drac2>
