@@ -1,0 +1,21 @@
+embed <drac2>
+out = []
+args = &ARGS&
+options = ["rule", "item", "ability", "move", "homebrew"]
+homebrew = get_svar("p5ehomebrew", "")
+homebrew = load_json(get_gvar(homebrew)) if homebrew else ""
+if len(args) > 1:
+    if args[0] in options:
+        lookup = str(" ".join(args[1:])).lower()
+    else:
+        lookup = str(" ".join(args)).lower()
+    for x in options:
+        if args[0] in x:
+            category = x
+        break
+    table = 
+elif args:
+    # display items for the selected option above
+else:
+    #what to do if there are no arguments.  Probably call the help, I guess?
+</drac2>
