@@ -1,0 +1,509 @@
+[{
+  "name": " Pokemon Trainer Class",
+  "meta": "Pokémon 5e Rules",
+  "desc": "**Hit Points**\n__Hit Dice:__ 1d8 per level \n__Hit Points__ at 1st Level: 8 + your Constitution modifier\n__Hit Points__ at Higher Levels: 1d8 + your Constitution\nmodifier.\n\n**Proficiencies**\n**Armor:** None\n**Weapons:** None\n**Saving Throws:** Charisma\n**Skill Proficiencies:** Animal Handling and **choose two** from\nAcrobatics, Athletics, Insight, Intimidation, Investigation,\nMedicine, Nature, Perception, Performance, Persuasion,\nSleight of Hand, Stealth, or Survival.\n\n**Equipment**\nYou start with the following equipment, in addition to the\nequipment granted by your background:\n• 5 Pokéballs\n• 1 potion\n• (a) a dungeoneer’s pack or (b) explorer’s pack or (c) filcher's Pack\n• Trainer's License\n• A Pokédex\n• A starter Pokémon\n• ₽ 1000 + ₽ 100 x 4d4"
+}, {
+  "name": "Trainer Level List",
+  "meta": "Pokémon 5e Rules",
+  "desc": "The Pokémon Trainer\n\n**Level | Prof Bonus | Features | Pokéslots | Max SR**\n1 | +2 | Starting Pokémon, Specialization | 3 | 2\n2 | +2 | Trainer Path | 3 | 2 \n3 | +2 | Control Upgrade | 3 | 5\n4 | +2 | Ability Score Improvement | 3 | 5\n5 | +3 | Trainer Path Feature, Pokéslot | 4 | 5\n6 | +3 | Control Upgrade | 4 | 8\n7 | +3 | New Specialization | 4 | 8\n8 | +3 | Ability Score Improvement, Control Upgrade | 4 | 10\n9 | +4 | Trainer Path Feature | 4 | 10\n10 | +4 | Trainer's Resolve, Pokéslot | 5 | 10\n11 | +4 | Control Upgrade | 5 | 12\n12 | +4 | Ability Score Improvement | 5 | 12\n13 | +5 | Pokémon Tracker | 5 | 12\n14 | +5 | Control Upgrade | 5 | 14\n15 | +5 | Trainer Path Feature, Pokéslot | 6 | 14\n16 | +5 | Ability Score Improvement | 6 | 14\n17 | +6 | Control Upgrade | 6 | 15\n18 | +6 | New Specialization | 6 | 15\n19 | +6 | Ability Score Improvement | 6 | 15\n20 | +6 | Control Upgrade, Master Trainer | 6 | 15\n"
+}, {
+  "name": "Pokemon Control Upgrade",
+  "meta": "Trainer Class Ability",
+  "desc": "Each species of Pokémon is given its own Species Rating (SR). More on Species Rating can be found on page 13. The stronger the Pokémon, the more difficult they are to control. The type of Pokémon you can control in the game depends on the level of your character (As seen in the Trainer Level Table above). Without the proper level, a Pokémon with a higher SR than allowed will remain permanently at the \"Disloyal\" Loyalty level until the proper control level has been reached. The maximum Pokémon SR that you can control increases at levels 3, 6, 8, 11, 14, 17, and 20."
+}, {
+  "name": "Pokeslots",
+  "meta": "Trainer Class Ability",
+  "desc": "A Trainer’s Pokéslots are the number of Pokémon a Trainer can carry in their pack. At level 1, a Trainer carries their Starter and has two empty slots. Trainers can carry an additional Pokémon at levels 5, 10, and 15."
+}, {
+  "name": "Trainer's Resolve",
+  "meta": "Trainer Class Ability",
+  "desc": "By the time you reach 10th level, you have had your fair share of experience in difficult battles and have emerged victorious and strong. You are now immune to fear, and may choose a second saving throw to become proficient in."
+}, {
+  "name": "Pokemon Tracker",
+  "meta": "Trainer Class Ability",
+  "desc": "At level 13, you have already spent countless hours in the wild, searching for Pokémon high and low. Once per long rest, you may make a DC 15 WIS check to search for Pokémon in the nearby area. On a success, your DM must tell you what wild Pokémon can be found nearby. On a critical success, a Pokémon of your choice from the DM's list appears in the next encounter."
+}, {
+  "name": "Master Trainer",
+  "meta": "Trainer Class Ability",
+  "desc": "At level 20, your Pokémon are at peak fighting performance. When you or your Pokémon fail a saving throw, you may choose to succeed instead. This feature can be used twice per long rest. "
+}, {
+  "name": "Trainer Specializations ",
+  "meta": "Trainer Class Ability",
+  "desc": "At level 1, players may choose a specialization from the following list, granting them bonuses depending on the type of Pokémon they train. Additional Specializations can be chosen at later levels. Specializations can be stacked for an additional +1 bonus for each time it is chosen.\n\nUse `!special <name of specialization>` to look up the details on them, Example `!special Bird Keeper`. \n\nDifferent Specializations are as follows:\n\nBird Keeper\nBug Maniac\nCamper\nDragon Tamer\nEngineer\nPyromaniac\nGardener\nMartial Artist\nMountaineer\nMystic\nSteel Worker\nPsychic\nSwimmer\nCharmer\nShadow\nAlchemist\nTeam Player\nIce Skater"
+}, {
+  "name": "Bird Keeper",
+  "meta": "Trainer Specialization",
+  "desc": "You gain proficiency in Perception. Add a +1 bonus to all skill checks made by any of your flying Pokémon."
+}, {
+  "name": "Bug Maniac",
+  "meta": "Trainer Specialization",
+  "desc": "You gain Proficiency in Nature. Add a +1 bonus to all skill checks made by any of your bug Pokémon."
+}, {
+  "name": "Camper",
+  "meta": "Trainer Specialization",
+  "desc": "You gain proficiency in Survival. Add a +1 bonus to all skill checks made by any of your ground Pokémon."
+}, {
+  "name": "Dragon Tamer",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Wis by +1. Add a +1 bonus to all skill checks made by any of your dragon Pokémon."
+}, {
+  "name": "Engineer",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Int by +1. Add a +1 bonus to all skill checks made by any of your electric Pokémon."
+}, {
+  "name": "Pyromaniac",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Con by +1. Add a +1 bonus to all skill checks made by any of your fire Pokémon."
+}, {
+  "name": "Gardener",
+  "meta": "Trainer Specialization",
+  "desc": "You gain proficiency in Nature. Add a +1 bonus to all skill checks made by any of your grass Pokémon."
+}, {
+  "name": "Martial Artist",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Str, Con, or Dex by +1. Add a +1 bonus to all skill checks made by any of your fighting Pokémon."
+}, {
+  "name": "Mountaineer",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Str, Con, or Dex by +1. Add a +1 bonus to all skill checks made by any of your rock Pokémon."
+}, {
+  "name": "Mystic",
+  "meta": "Trainer Specialization",
+  "desc": "You gain proficiency in Arcana. Add a +1 bonus to all skill checks made by any of your ghost Pokémon."
+}, {
+  "name": "Steel Worker",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Str or Con by +1. Add a +1 bonus to all skill checks made by any of your steel Pokémon."
+}, {
+  "name": "Psychic",
+  "meta": "Trainer Specialization",
+  "desc": "You gain the ability to use the Telepathy spell once per day, ignoring components. Add a +1 bonus to all skill checks made by any of your psychic Pokémon."
+}, {
+  "name": "Swimmer",
+  "meta": "Trainer Specialization",
+  "desc": "Gain a swim speed equal to your movement speed. Add a +1 bonus to all skill checks made by any of your water Pokémon."
+}, {
+  "name": "Charmer",
+  "meta": "Trainer Specialization",
+  "desc": "Increase your Cha by +1. Add a +1 bonus to all skill checks made by any of your fairy Pokémon."
+}, {
+  "name": "Shadow",
+  "meta": "Trainer Specialization",
+  "desc": "Gain proficiency in the Deception or Stealth skill. Add a +1 bonus to all skill checks made by any of your dark Pokémon."
+}, {
+  "name": "Alchemist",
+  "meta": "Trainer Specialization",
+  "desc": "Gain proficiency in the Medicine or Deception skill. Add a +1 bonus to all skill checks made by any of your poison Pokémon."
+}, {
+  "name": "Team Player",
+  "meta": "Trainer Specialization",
+  "desc": "Increase any one of your ability scores by 1. Add a +1 bonus to all skill checks made by any of your normal Pokémon."
+}, {
+  "name": "Ice Skater",
+  "meta": "Trainer Specialization",
+  "desc": "Gain proficiency in the Performance or Persuasion skill. Add a +1 bonus to all skill checks made by any of your ice Pokémon."
+}, {
+  "name": "Trainer Path",
+  "meta": "Trainer Class Ability",
+  "desc": "There are many ways and reasons to train Pokémon, ranging from a desire for adventure to a wish to learn more about them. At the 2nd level, depending on your long term goals, you choose a path and gain your first Trainer Path Feature. You gain Trainer Path Features at levels 5, 9, and 15.\n\nYou can look up the different Trainer Paths by using the following command, `!tpath <name of trainer path>` example `!tpath grunt`. The following is a list of all the Trainer Paths.\n\nAce Trainer\nHobbyist\nPoké Mentor\nResearcher\nPokémon Collector\nNurse\nType Master\nCommander\nGrunt\nRanger\nTactician \nGuru\nPokemon Breeder"
+}, {
+  "name": "Ace Trainer",
+  "meta": "Trainer Path",
+  "desc": "Your goal is to become one of the strongest trainers in the world, and so you excel in battle. Beginning at level 2, all of your Pokémon gain a +1 bonus to their attack and damage rolls.\n\n**Battle Master:**\nWhen you reach level 5, you gain a number of battle dice (d6) equal to 1 + your Wisdom modifier (minimum of 1). You may assign one of these to any of your Pokémon to be added to a single attack or damage roll, after the result of the initial roll. You replenish your pool of battle dice at each long rest.\n\n**Max Potential:**\nCertain trainers choose to excel in one area, utilizing it to its fullest potential. When you reach level 9, choose to increase all of your Pokémon’s speed by 10, increase their STR by 1, increase their DEX by 1, or increase their CON by 1.\n\n**Rapid Switching:**\nWhen you reach level 15, you can recall and release Pokémon as a bonus action instead of a standard action. You may use this feature a number of times equal to 1 + your Wisdom modifier (minimum of 1). This pool resets at each long rest. A Pokémon may not be switched out until after the end of its first full turn in combat (Unless by item or move like Volt Switch, U-Turn, etc)."
+}, {
+  "name": "Hobbyist",
+  "meta": "Trainer Path",
+  "desc": "You choose to dabble in a variety of skills to take care of your Pokémon. At level 2, select one additional Specialization and two new skill proficiencies for your trainer.\n\n**Versatile:**\nAt level 5, you gain a number of skill dice (d6) equal to 1 + your WIS modifier (minimum of 1). You may assign one of these to any of your Pokémon to be added to a single skill check or saving throw, after the result of the initial roll. You replenish your pool of skill dice at each long rest.\n\n**Many Faces:**\nAt level 9, you may select a second-, fifth-, or ninth-level feature of any of the other trainer path.\n\n**Skill Switch:**\nAt level 15, you are a master of teaching your Pokémon new strategies to aid in battle. At each long rest, choose a feat from the “Additional Feats” section of page 18 for all of your Pokémon to know for that day. The feat may be changed at each long rest."
+}, {
+  "name": "Poke Mentor",
+  "meta": "Trainer Path",
+  "desc": "You have a nurturing touch and a skill for mentoring Pokémon to bring out the best in them. Your TMs can be used twice before breaking.\n\n**Pokéchef:**\nYou excel at creating meals for your Pokémon, seemingly out of nothing. At level 5, you are frequently prepared with an \"Edible Treat\" for Pokémon, healing 2d4+2 hit points when given as an action. You can use this feature a number of times equal to 1 + your Wisdom modifier. This pool resets at each long rest.\n\n**Cheerleader:**\nAt level 9, once per short rest, you may use a bonus action to boost all allied Pokémon with inspiring words. Until your next turn, you may add your CHA modifier (minimum of 1). to all allied attack rolls OR damage rolls OR AC. In addition, your Pokéchef treat now heals 3d10+6 hit points.\n\n**Master Teacher:**\nYou have become an incredibly skilled teacher, and move learning is accelerated under your leadership. When you reach level 15, your Pokémon's moves may be learned and unlearned at each long rest instead of level up. In addition, your Pokéchef treat now heals 4d12+10 hit points."
+}, {
+  "name": "Researcher",
+  "meta": "Trainer Path",
+  "desc": "You wish to learn more about Pokémon and the secrets that they hold within. Due to your heightened understanding of your Pokémon, you may increase any skill check your Pokémon makes by your trainer's Wisdom or Intelligence modifier (minimum of 1). You must choose which at the time you choose this path.\n\n**Analyst:**\nA keen mind allows you to discern details about a Pokémon others might overlook. At level 5, you can make a DC 12 Investigation roll as a bonus action to determine a Pokémon’s level and identify one of its abilities as determined by the DM.\n\n**Evolutionary Expert:**\nAt level 9, your understanding of the secrets behind Pokémon evolution allows you to enhance the process. When one of your Pokémon evolves, you may use two of its evolution points to spend on a feature. \n\n**Professor:**\nAt level 15, you are an expert in your field. At any time, you may use a bonus action to identify all of a target's known moves. In addition, you learn and call out a target's weak spots, granting +2 to the attack rolls of all allied Pokémon within 60 feet of you until the end of your next turn. You may use this feature a number of times equal to 1 + your Intelligence modifier (minimum of 1). This pool resets at each long rest."
+}, {
+  "name": "Pokemon Collector",
+  "meta": "Trainer Path",
+  "desc": "Your fascination with all the different types of Pokémon of the world drives your need to collect them all. You now have expertise in Animal Handling, doubling your proficiency in this skill.\n\n**Gotta Catch ‘Em All:**\nAt level 5, once per long rest, you may roll an Animal Handling check with advantage, even if the opponent is not suffering from a negative status effect.\n\n**Careful Catching:**\nAt level 9, any Pokémon you catch are instantly healed of their status ailments and have full health. In addition, you may now add your Charisma modifier to any catching attempt. \n\n**Disciplined Strikes:**\nAt level 15, you have trained your Pokémon to hold back or unleash power when necessary. When damaging a Pokémon enough to cause it to faint, you can choose to bring it to 1 HP instead."
+}, {
+  "name": "Nurse",
+  "meta": "Trainer Path",
+  "desc": "You have a pure heart and a healing spirit. You want the best for your Pokémon, and that involves always keeping them in tip-top shape. When you choose this path, gain proficiency in the Medicine skill. At each long rest or Pokémon center visit, your held Pokémon gain temporary hit points equal to your level.\n\n**Pure Heart:**\nYour kindness radiates to all those around you. At level 5 you have a pool of healing power that replenishes when you take a long rest. As an action, you can touch a willing creature and restore any number of hit points from this pool. The total pool is equal to your trainer level x 5.\n\n**Healing Spirit:**\nYour healing spirit is transferred to your Pokémon. When you reach level 9, whenever you use a consumable that heals your Pokémon, or your Pokémon uses a healing move, roll the dice twice and take the higher result.\n\n**Joy:**\nYou have ascended to an ultimate Pokémon healer. When you reach level 15, once after each long rest, you can spend 1 hour to gain a similar advantage as visiting a Pokémon Center. Up to six Pokémon of your choice are fully healed and cured of all status effects."
+}, {
+  "name": "Type Master",
+  "meta": "Trainer Path",
+  "desc": "You feel drawn to the elements, focusing your skills into a particular type of Pokémon. When you choose this path, increase the STAB of any Pokémon that is the same type as your specialization by +1 at all levels. If you select multiple specializations at later levels, the bonus applies to the new type as well. If your Pokémon is dual-type and you are specialized in both types, the bonus is +2. \n\n**Drawing Power:**\nYour Pokémon are trained to draw power from each other. When you reach level 5, Pokémon of the same type as your specialized types add 2 to their attack rolls.\n\n**Storing Power:**\nYour skills within your specialized types give your Pokemon a great defensive power. When you reach level 9, all of your carried Pokémon within your specialized types have resistance to a choice of one of your specialization types, determined at the time of gaining this feature. This type may never change, so choose wisely. If a Pokémon was once vulnerable to that type, it now takes the regular amount of damage. \n\n**Releasing Power:**\nYour Pokémon are masters of their own types, focusing their energy in every attack they make. When you reach level 15, for Pokémon of the same types you are specialized in, their STAB can be added to any damaging move of their choosing, even if it is a different type from their own."
+}, {
+  "name": "Commander",
+  "meta": "Trainer Path",
+  "desc": "You rule over your Pokémon with an iron fist, demanding respect and forming an unbreakable bond with your team. When you choose this path, your starter’s Loyalty increases to “Loyal”. In addition, all of your Pokémon double the saving throw and HP bonuses from positive Loyalty levels.\n\n**Follow Me:**\nYou have a firm hand, but a trusting presence. When you reach level 5, any new Pokémon you catch get a +1 bonus to Loyalty. In addition, your Pokémon's Loyalty level cannot be decreased by losing a battle.\n\n**Show Me What You’ve Got:**\nYour confidence and leadership inspire your Pokémon to reach deep inside themselves for unknown power. At level 9, once per short rest, one of your Pokémon may double all damage dice from one of its moves OR activate a single move from one tier above moves that it currently can learn. (For example: A level 4 Bulbasaur can use Sleep Powder - a move only available at level 6 and above.) In the case of Pokémon that are already at the highest move tier level, it may double the damage dice OR activate any unknown move in its stat block. The choice to use this feature to double damage dice can occur after the result of the attack roll or saving throw from the move is known.\n\n**We’re a Team:**\nYour commanding presence is felt by all ally Pokémon on the battlefield. When you reach level 15, you may use a bonus action to speak a commanding phrase. Until the end of your next turn, all allied Pokémon within 60 feet of you have advantage on their attacks. You may use this feature a number of times equal to 1 + your Charisma modifier (minimum of 1). This pool resets at each long rest."
+}, {
+  "name": "Grunt",
+  "meta": "Trainer Path",
+  "desc": "Whether current or aspiring evil team member, your goal is to cast down all goody two shoe trainers and rise up in the ranks! When you take this trainer path, gain a pool of “Shadow Points” equal to your level. Your point pool increases with each level, and resets on each long rest. At level 2, you gain access to the “Sabotage” ability. If your Pokémon would be hit by an attack, as a reaction, you may spend any number of Shadow Points to decrease the total result of the attack roll if it would cause it to miss your Pokémon. The natural attack roll is unaffected by this ability for purposes of move effects, and attacks with a natural roll of 20 may not be decreased at all. \n\n**And Make It Double**\nYou know the ins and outs of what it means to be a part of an evil team! At level 5, gain access to the “Dark Advantage” ability, allowing you to spend 3 Shadow Points to roll advantage on any skill check, attack roll or saving throw by you or your Pokémon. \n\n**Surrender Now**\nYou have made it to the top ranks, commanding authority through your influence of the Shadow Arts. When you reach level 9, you gain the “Sinister Dodge” ability. As a reaction, you may spend 4 shadow points to add one level of resistance to a move that damages one of your Pokémon. (Vulnerable -> Neutral, Neutral -> Resistant, Resistant -> Immune) \n\n**Prepare to Fight**\nWith the evolution of your Shadow Abilities through your intense training, you and your Pokémon accept the darkness within and harness it. At level 15, gain access “Copy Meowth” ability, allowing you to spend 5 Shadow Points for any of your Pokémon to invoke the “Me First” reaction."
+}, {
+  "name": "Catching a Pokemon",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Catching Pokémon, much like in the original game, is crucial to your success as a Pokémon trainer. There are several rules to follow when catching Pokémon:\n\n• To catch a Pokémon you hurl a Pokéball at the Pokémon. To do this your trainer rolls an animal handling check. You have advantage on the throw if the Pokémon is poisoned, restrained, asleep, burning, confused, paralyzed, or frozen.\n\n• A trainer can hold no more than their Pokéslots allow. If a trainer’s Pokéslots are full when a Pokémon is caught, the trainer must choose one Pokémon to send to their PC.\n\n• A Pokéball is destroyed on a failed catch attempt.\n\n• A caught Pokémon retains its level, all status effects, and current HP at the time of the catch.\n\n• It is impossible for a Trainer to catch a Pokémon greater than their current level.\n\n• A caught Pokémon is given the minimum amount of experience for that Pokémon’s level to start.\n\n• A fainted Pokémon cannot be caught.\n\n• Catching a Pokémon gives 1/5 the normal XP.\n\nThere may be Pokémon in the wild that are friendly and happy to join you in your adventures. For those that need a little more coaxing, the mechanics of catching a Pokémon are much like casting a spell that everyone knows.\n\nDC to catch a pokemon is calculated as such: \n\n**10 + Pokémon’s Base SR (rounded down) + Pokémon level + Remaining HP / 10 (rounded down)**"
+}, {
+  "name": "Active Pokemon",
+  "meta": "Pokémon 5e Rules",
+  "desc": "At all times, a trainer must have an **Active Pokémon.** This Pokémon stays outside their Pokéball and roams around with the trainer as their adventuring partner. If this Pokémon faints, the trainer must choose a new Active Pokémon at that time. If a battle were to be triggered, the Active Pokémon is the first one to fight until switched out. At the end of battle, they resume status as the Active Pokémon. A trainer can switch out their Active Pokémon at any time, except immediately before entering a battle or during an instantaneous call for a check or saving throw in which there is no time to do so. (DMs should discourage meta-gaming. Players should always have a legitimate reason for switching Active Pokémon in the role play.)"
+}, {
+  "name": "Healing Pokemon",
+  "meta": "Pokémon 5e Rules",
+  "desc": "There are three ways to heal your Pokémon.\n\n• Bring them to a Pokécenter.\n• Take a long or short rest.\n• Give them potions or food.\n\n**Pokécenters:**\nPokécenters are small hospita like facilities that can heal your Pokémon to full health, status, and recover all PP in less than 30 minutes. Free for those with Trainer Licenses, they can be found across the world in abundance.\n\n**Rests:**\nLong rests take at least eight hours and refresh all Pokémon health, statuses, and PP.\n\nShort rests can be as little as a half an hour and recover an amount of health equal to the number rolled on a Pokémon’s hit dice. PP is not recovered on short rests, and short rests do not revive fainted Pokémon.\n\n**Potions/Food:**\nPerishable items can be given to a Pokémon as an action to instantly restore hit points or temporarily increase abilities."
+}, {
+  "name": "Bonding",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Bonding with your Pokémon is an important part of any trainer’s routine. At each long rest, you have the ability to take special time to bond with your active Pokémon. Bonding with a Pokémon can take the form of practicing, eating together, playing games, or simply just enjoying one another’s company. Bonding with your Pokémon has two main benefits that last until your next long rest:\n\n• The Pokémon gains temporary hit points equal to its level.\n• The Pokémon gains 1 point of inspiration."
+}, {
+  "name": "Loyalty",
+  "meta": "Pokémon 5e Rules",
+  "desc": "The bond between a Pokémon and its trainer is not always stable; It can ebb and flow as the two parties interact with one another. In Pokémon 5e, the relationship between a Pokémon and its trainer moves through various level of Loyalty. These levels each have different effects on the ability of a Pokémon, how well they listen to you, and even whether or not certain Pokémon can evolve.\n\nUltimately, the Loyalty level of a Pokémon is determined by the DM. Examples of raising loyalty may include bonding with a Pokémon multiple times, seeking out snack and foods that the Pokémon enjoys, winning a particularly difficult battle, etc. Lowering loyalty may involve catching a Pokémon in an undeserving way, leaving a Pokémon in the PC for too long, allowing a Pokémon to faint from poison instead of healing it with antidote. The extremes of the loyalty scale should be more difficult to reach than the levels closer to Neutral. Rarely should Pokémon reach -3 or +3 without extreme circumstances.\n\nTo look up the different levels of Loyalty, use `!prules loyalty levels` "
+}, {
+  "name": "Loyalty Levels",
+  "meta": "Pokémon 5e Rules",
+  "desc": "The Levels of Loyalty are explains as follows. \n\n**-3 Disloyal**\nDisloyal Pokémon hold disdain for being captured, and would rather be free. They have no need to impress or obey their trainers, and actively disobey orders. Pokémon at this level have the same saving throw penalty as the \"Upset\" and \"Indifferent\" levels. In addition, before activating a move, the trainer must roll higher than a 15 on a d20 roll or the move fails.\n\n**-2 Indifferent**\nIndifferent Pokémon do not care if their trainers win or lose. They will sometimes obey orders, and other times simply refuse to act. Pokémon at this level have the same saving throw penalty as the \"Upset\" level. In addition, before activating a move, must roll higher than a 10 on a d20 roll or the move fails.\n\n**-1 Upset**\nUpset Pokémon hold a small grudge against their trainers that affects them in battle. Pokémon at this level add -1 to any saving throw they make.\n\n**0 Neutral**\nA neutral Pokémon acts normally with no stat modifiers. It responds to its trainers commands and acts on its own accord outside of combat as an Active Pokémon. Most freshly caught Pokémon begin at this level or lower depending on the circumstances of their catch.\n\n**+1 Content**\nA content Pokémon shows a fondness and respect for their owners. Caught Pokémon very rarely begin at any loyalty level higher than this. Pokémon at this level gain an additional +1 to any saving throw they make.\n\n**+2 Pleased**\nA pleased Pokémon puts great trust in their owners, and enjoys spending quality time with them. Pokémon at this level gain the same saving throw bonus as the \"Content\" level. In addition, they increase their maximum HP by half their level (rounded up) and gain one skill proficiency of their choice. (Animal Handling may not be chosen. In the case where a Pokémon would dip below this Loyalty and come back, the same skill must be selected. If a Pokémon would evolve and gain an identical skill naturally, it may choose a different proficiency at that time.)\n\n**+3 Loyal**\nPokémon at this level have an incredible bond with their trainers, willing to risk their own life for their trainer's safety. Pokémon at this level gain the same saving throw bonus and chosen skill proficiency as the \"Pleased\" level. In addition, their maximum HP increase becomes equal to their level, and they gain \"expertise\" in a single existing skill proficiency of their choice. (If a Pokémon chooses \"expertise\" in a natural skill proficiency that it would lose due to evolving, the Pokémon maintains proficiency, but loses \"expertise\" in that skill.)"
+}, {
+  "name": "Battling: Combat",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Combat in Pokémon 5e is not much different than what you are used to, with a few exceptions:\n\n• At the start of a battle, you make one initiative roll for both you and your Pokémon using your trainer's initiative bonus.\n\n• Only one Pokémon of yours may be on the battlefield at once.\n\n• In order to switch out a Pokémon before it has fainted takes up an entire action, but changing out a Pokémon when it faints can be done immediately as a free action. Either way, a new Pokémon cannot be switched out until it has taken a full turn in combat.\n\n• In order to switch out a fainted Pokémon, your trainer must be within 60 feet.\n\n• On your turn, both your trainer and your active Pokémon have a movement up to their speed, but only one of you may take an action/bonus action. A Pokémon Trainer’s job on their turn is to assist their Pokémon in battle by interacting with the environment, providing potions or boosts, commanding their Pokémon to attack, or attempting to run away.\n\n• You MUST have a Pokémon in the battle at all times. If you have no remaining Pokémon, you lose the battle. A battle loss results in you losing half your total money (rounded up), all carried Pokémon lose 1 level of loyalty, and you must immediately use a revive or find a Pokécenter.\n\n• If a Pokémon runs out of PP for all moves, the only move it can use is Struggle."
+}, {
+  "name": "Battling: Trainer Actions, AOO, Running Away",
+  "meta": "Pokémon 5e Rules",
+  "desc": "**Attacks of Opportunity**\n\nIf a Pokémon leaves the melee range of another without using the Disengage action, or when not returning to a Pokéball, the opponent may use a melee move that has a time of \"1 action\" immediately as a reaction. The move costs the normal amount of PP.\n\n**Trainer Actions**\n\nIn Pokémon battles, a trainer's main job is to interact with the environment, issue commands, and keep their Pokémon in the fight by administering boosts or potions. There are strict laws governing the world of Pokémon and any trainer vs. trainer combat is strictly prohibited, the penalty being the loss of one's Trainer License. As such, trainers may not target other trainers or a trainer's Pokémon in battle. All is fair in wild Pokémon encounters, however. A trainer may assist their Pokémon in battle, or defend against any incoming attacks.\n\n**Running Away**\n\nIf trainers get caught up in a fight with wild Pokémon they do not think they can win against, they can attempt a group DEX check as an action on a PC’s turn, contested by the DEX ability score of the wild Pokémon involved in the combat. More PCs need to succeed than fail. Tie goes to \nthe runner. In case of a fail, trainers may not attempt to run away again until that PC’s next turn (one full round)."
+}, {
+  "name": "Battling: Moves/Move Powers",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Your Pokémon have several moves to choose from in battle, and can learn more as they advance levels or are given TMs and HMs. Moves in Pokémon 5e work similarly to spells in 5e. Each move has a number of **Power Points (PP)** that determine how many times the move can be used. Refilling PP can be done by resting your Pokémon, or using an item such as Ether.\n\nEach move has at least one **Move Power –** the focused abilities of that move. Move Powers can be any of the six main abilities, and determine which ability modifier to use for attack, damage, and saving throw DC. This ability modifier is referenced simply as \"MOVE\" in move descriptions seen later in this manual.\n\n\n**Attack Roll Bonus = Move+proficiency**\n\n**Damage Bonus= MOVE(Plus STAB if applicable)**\n\n**Saving Throw DC = 8 + Proficiency Mod + Move Power Mod**"
+}, {
+  "name": "Evolution",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Pokémon can evolve into a new form under the constraints given in their stat block. When a Pokémon evolves, the following occurs, in order:\n\n1. It keeps its current ability scores, but gains a number of points to add to these scores as determined in its stat block. A Pokémon evolved in this way may not use evolution points to raise a single ability score higher than 4 points above the same score in their evolved form’s stat block, +/- applicable nature bonus, + any ASI points applied to that stat prior to evolution. (Maximum of 20 or higher score as stated in the evolved form’s stat block, before nature). With the exception of the Researcher training path feature, these points CANNOT be used for feats.\n\n2. It gains an HP bonus of double its level. \n\n3. It acquires the hit dice of its evolved form to increase HP this level and for future rolls. \n\n4. It acquires the base AC of its evolved form, all new proficiencies, and vulnerabilities/resistances/immunities. \n\n5. If it loses its current ability by evolving, it should exchange its current known ability for any one of its evolved form's non-hidden\nabilities.\n\n6. It keeps the known moves it had before evolution, but must learn all future moves from its new move list. *Ex: Pikachu evolving into Raichu at level 10 cannot learn any of Pikachu's level 10 moves.*\n\n7. If evolving at a level where it would gain ASI (4, 8, 12, 16, or 20), it adds those now.\n\nEvolution can be delayed at the player’s discretion, but once the decision has been made, the Pokémon cannot evolve until gaining an additional level.\n\nThe next section outlines the ASI increase for Pokemon as it is important to know this rule when evolution takes place as well.\n\n\n**Ability Score Improvement**\n\nThe Pokémon gains a number of points to add to its abilities. (Max of 20, before nature) \nA Pokémon that is part of an evolutionary line with three stages gains 2 ASI points at levels 4, 8, 12, 16, and 20. \n\nA Pokémon that is part of an evolutionary line with two stages gains 3 ASI points at levels 4, 8, 12, 16, and 20. \n\nA Pokémon that is part of an evolutionary line with one stage gains 4 ASI points at levels 4, 8, 12, 16, and 20. \n\nWhen a Pokémon gains these points, it may spend 2 of them on a feature of its choice, instead of an ability score increase. "
+}, {
+  "name": "Pokemon Experience",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Experience points (XP) are rewarded to Pokémon for successfully defeating other Pokémon, or given out at the DM’s discretion when the players complete a particularly difficult challenge. Catching a Pokémon also gives experience, but at 1/5 the normal amount. XP can be distributed to a player’s Pokémon in any amount, but only Pokémon that took an action in the fight can be given the rewarded XP. Fainted Pokémon can also be given XP as long as they were in the fight. If two or more people battle against a single Pokémon, the XP given to each player to distribute is determined by the DM. See the Appendix for more information on XP based on SR and Pokémon level.\n\nThe following is a table containing the total XP a Pokémon needs at each level to level up:\n\n**Level ---- XP Needed**\n\n1st. ---- 0\n2nd ---- 200\n3rd ---- 800\n4th ---- 2,000\n5th ---- 6,000\n6th ---- 12,000\n7th ---- 20,000\n8th ---- 30,000\n9th ---- 44,000\n10th ---- 62,000\n11th ---- 82,000\n12th ---- 104,000\n13th ---- 128,000\n14th ---- 158,000\n15th ---- 194,000\n16th ---- 234,000\n17th ---- 278,000\n18th ---- 326,000\n19th ---- 382,000\n20th ---- 450,000"
+}, {
+  "name": "Pokemon Level List",
+  "meta": "Pokémon 5e Rules",
+  "desc": "**Level | Prof Bonus | Features | STAB**\n1 | +2 | Nothing | 0\n2 | +2 | New Move | 0 \n3 | +2 | STAB Increase | +1\n4 | +2 | Ability Score Improvement | +1\n5 | +3 | Proficiency, Damage Increase | +1\n6 | +3 | New Move | +1\n7 | +3 | STAB Increase | +2\n8 | +3 | Ability Score Improvement | +2\n9 | +4 | Proficiency Increase | +2\n10 | +4 | New Move, Damage Increase | +2\n11 | +4 | STAB Increase | +3\n12 | +4 | Ability Score Improvement | +3\n13 | +5 | Proficiency Increase | +3\n14 | +5 | New Move | +3\n15 | +5 | STAB Increase | +4\n16 | +5 | Ability Score Improvement | +4\n17 | +6 | Proficiency, Damage Increase | +4\n18 | +6 | New Move | +4\n19 | +6 | STAB Increase | +5\n20 | +6 | Ability Score Improvement | +5\n"
+}, {
+  "name": "Pokemon Advancement",
+  "meta": "Pokémon 5e Rules",
+  "desc": "When your Pokémon has gained enough experience, it may be able to level up. Level ups for Pokémon happen immediately, and do not require long rests. Just like PCs, Pokémon roll (or take the average of) a hit die (determined in their stat block) and add their CON modifier to determine the increase in HP at each level.\n\n**New Move:**\nYour Pokémon may have new moves that it can learn. All moves at this level or lower can be taught to your Pokémon. Pokémon cannot have more than four moves at a time without the Extra Move Feat. Moves can only be replaced when a Pokémon gains a level, and must be chosen from the Pokémon’s current move list at a level at or below their current level.\n\n**Damage Increase:**\nThe damage of each damaging move increases at the acquired level, as shown in the move description.\n\n**Ability Score Improvement:**\nYour Pokémon can gain two points to spend on increasing their abilities (to a maximum of 20 before Nature) OR can select a Feature. See `!prules Feats`"
+}, {
+  "name": "STAB",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Same-Type Attack Bonus (STAB)\n\nYour Pokémon gains a bonus to damage rolls when it uses an attack move type that is the same as their Pokémon type. STAB may only be added once per move, even for moves that deal damage over time like Leech Seed, Poison Gas, etc. This bonus increases as the Pokémon levels up."
+}, {
+  "name": "Mounts",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Many Medium or larger Pokémon can be mounted (There are no hard-and-fast rules for mounting in this manual. Any mountable Pokémon are at the discretion of the DM). When you mount an active Pokémon, you take on their walking, swimming, or flying speeds. "
+}, {
+  "name": "Trainer Level Up Opt. 1",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Level ups for trainers happen immediately, and do not require long rests. There are two options a DM can use for player character leveling, neither of which use experience points like Pokémon advancement. There are Two Options. \n\n**Option 1:**\nThe level of a character is determined by total levels of the character’s X highest leveled Pokémon, where X is the PC’s current number of Pokéslots. The following table can be used as a guideline for PC leveling.\n\nThe highest leveled Pokémon a trainer owns do not need to be carried by that trainer in order to level up.\n\n\n**Character Level ---- Total Pokémon Levels Needed**\n\n2nd ---- 3\n3rd ---- 6\n4th ---- 9\n5th ---- 12\n6th ---- 20\n7th ---- 24\n8th ---- 28\n9th ---- 32\n10th ---- 36\n11th ---- 50\n12th ---- 55\n13th ---- 60\n14th ---- 65\n15th ---- 70\n16th ---- 90\n17th ---- 96\n18th ---- 102\n19th ---- 108\n20th ---- 114"
+}, {
+  "name": "Trainer Level Up Opt. 2",
+  "meta": "Pokémon 5e Rules",
+  "desc": "Level ups for trainers happen immediately, and do not require long rests. There are two options a DM can use for player character leveling, neither of which use experience points like Pokémon advancement. There are Two Options. \n\n**Option 2:**\nThe level of the trainer is based upon how many Pokémon the trainer has registered in their Pokédex. Alternatively, the DM can choose to allow trainers to register a Pokémon by reading a certain book, finding an artifact, speaking to a professor, etc. The following table can be used as a reference for levels based on number of Pokémon in a Pokédex.\n\n**Character Level ---- Total Pokémon Registered**\n\n2nd ---- 8\n3rd ---- 15\n4th ---- 25\n5th ---- 35\n6th ---- 45\n7th ---- 58\n8th ---- 75\n9th ---- 87\n10th ---- 100\n11th ---- 110\n12th ---- 122\n13th ---- 138\n14th ---- 154\n15th ---- 168\n16th ---- 178\n17th ---- 186\n18th ---- 192\n19th ---- 197\n20th ---- 200"
+}, {
+  "name": "Feats",
+  "meta": "Pokémon 5e Rules",
+  "desc": "This supplement allows any feat from the 5e PHB to be selected for trainers, as long as it makes sense with the campaign setting you are playing in. In addition, the following D&D 5e feats can be selected for Pokémon instead of taking the Ability Score Increase given during the leveling process. All of the below feats may only be taken ONCE, except for Elemental Adept, which may be chosen for multiple damage types. Note: In these feats, wherever it says \"melee/ranged weapon\", use \"melee/ranged attack\" instead. Unearthed Arcana Feats marked with (UA).\n\n**Feats**\n\nYou can look up the additional Feats with `!pfeat <name of feat>` do not use <>. the following is the official list of feats.\n\nAcrobat, Alert, Athlete, Brawny, Charger, Durable, Elemental Adept, Mobile, Perceptive, Quick-Fingered, Resilient, Savage Attacker, Sentinel, Range Master, Skulker, Stealthy, Tough, Hidden Ability, Extra Move, AC Up, Tireless, Terrain Adept, Combo Master, Smooth Facade, Melee Master and Power Sculptor."
+}, {
+  "name": "Extra Move",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon can know five total moves instead of four."
+}, {
+  "name": "AC Up",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon’s AC increases by 1. This bonus is included through a Pokémon’s evolutions."
+}, {
+  "name": "Tireless",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon endures hours of rigorous training which keep it in battle longer than the average Pokémon. Gain +1 PP for every move."
+}, {
+  "name": "Terrain Adept",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon is especially skilled when fighting on a specific terrain. Choose one of the following terrains when selecting this feature. Your Pokémon gains +2 to attack rolls when in this terrain. Terrains: Coastal, Swamp, Forest, Arctic, Desert, Grassland, Hill, Mountain, Underwater."
+}, {
+  "name": "Combo Master",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon is an expert in combining strikes against a foe. When this feature is selected, moves that have the ability to hit more than once, after the same attack roll, are guaranteed to hit at least twice. (Fury Swipes, Double Slap, Water Shuriken, etc.) "
+}, {
+  "name": "Acrobat",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon become more nimble, gaining the following benefits:\n\n- Increase your/Pokémon's Dexterity score by 1, up to a maximum of 20.\n- Gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. \n- As a bonus action, you or your Pokémon can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn."
+}, {
+  "name": "Alert",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Always on the lookout for danger, you gain the following benefits:\n- Trainer or pokemon gains a +5 bonus to initiative.\n- Trainers or pokemon can't be surprised while you are conscious.\n- Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.\n\n(initiative bonus applied to trainer while you are the\nactive Pokémon. Does not stack with trainer Alert feat)"
+}, {
+  "name": "Athlete",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon have undergone extensive physical training to gain the following benefits:\n\n- Increase your/Pokémon's Strength or Dexterity score by 1, up to a maximum of 20.\n- When you/Pokémon are prone, standing up uses only 5 feet of your/Pokémon's movement.\n- Climbing doesn't cost you/Pokémon extra movement.\n- You/Pokémon can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
+}, {
+  "name": "Brawny",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon become stronger, gaining the following benefits:\n\n- Increase your/Pokémon's Strength score by 1, up to a maximum of 20.\n- You/Pokémon gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n- You/Pokémon count as if you/Pokémon were one size larger for the purpose of determining your/Pokémon's carrying capacity."
+}, {
+  "name": "Charger",
+  "meta": "Pokémon 5e Feat",
+  "desc": "When your Pokémon uses their action to Dash, they can use a bonus action to make one melee attack or use a bonus action to shove a target.\nIf your Pokémon moves at least 10 feet in a straight line immediately before taking this bonus action, they gain a +5 bonus to the melee attack's damage roll (if you chose to make a melee attack and hit), or push the target up to 10 feet away from you (if you chose to shove and you succeed)."
+}, {
+  "name": "Durable",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Hardy and resilient, you/Pokémon gain the following benefits:\n\n- Increase your/Pokémon's Constitution score by 1, up to a maximum of 20.\n- When you/Pokémon roll a Hit Die to regain hit points, the minimum number of hit points you/Pokémon regain from the roll equals twice your/Pokémon's Constitution modifier (minimum of 2)."
+}, {
+  "name": "Elemental Adept",
+  "meta": "Pokémon 5e Feat",
+  "desc": "When your Pokémon gains this feat, choose one of the following damage types: Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Fary, Dark.\n\n- Attacks your Pokémon does ignore resistance to damage of the chosen type. In addition, when you roll damage for an attack that deals damage of that type, you can treat any 1 on a damage die as a 2.\n- Your Pokémon can select this feat multiple times. Each time you do so, you must choose a different damage type."
+}, {
+  "name": "Mobile",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon are exceptionally speedy and agile. You/Pokémon gain the following benefits:\n- Your/Pokémon's speed increases by 10 feet.\n- When you/Pokémon use the Dash action, difficult terrain doesn't cost you/Pokémon extra movement on that turn.\n- When you/Pokémon make a melee attack against a creature, you/Pokémon don't provoke opportunity attacks from that creature for the rest of the turn, whether you/Pokémon hit or not."
+}, {
+  "name": "Perceptive",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon hone your senses until they become razor sharp. You/Pokémon gain the following benefits:\n\n- Increase your/Pokémon's Wisdom score by 1, up to a maximum of 20.\n- You/Pokémon gain proficiency in the Perception skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n- Being in a lightly obscured area doesn't impose disadvantage on your/Pokémon's Wisdom (Perception) checks if you/Pokémon can both see and hear."
+}, {
+  "name": "Quick-Fingered",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your/Pokémon's nimble fingers and agility let you/Pokémon perform sleight of hand. You/Pokémon gain the following benefits:\n\n- Increase your/Pokémon's Dexterity score by 1, up to a maximum of 20.\n- You/Pokémon gain proficiency in the Sleight of Hand skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n- As a bonus action, you/Pokémon can make a Dexterity (Sleight of Hand) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket."
+}, {
+  "name": "Resilient ",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Choose one ability score. You/Pokémon gain the following benefits:\n\n-Increase your/Pokémon's Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score by 1, up to a maximum of 20.\n- You/Pokémon gain proficiency in saving throws using the chosen ability."
+}, {
+  "name": "Savage Attacker",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Once per turn when you/Pokémon roll damage for a melee attack, you/Pokémon can reroll the attack's damage dice and use either total."
+}, {
+  "name": "Sentinel",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:\n- When you/Pokémon hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.\n- Creatures provoke opportunity attacks from you/Pokémon even if they take the Disengage action before leaving your reach.\n- When a creature within 5 feet of you/Pokémon makes an attack against a target other than you/Pokémon (and that target doesn't have this feat), you/Pokémon can use your/Pokémon's reaction to make a melee attack against the attacking creature."
+}, {
+  "name": "Range Master",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokemon is a sharpshooter. Your ranged attacks ignore\nhalf and three-fourths cover, Before you make a ranged\nattack, you can choose to take a -5 penalty to the attack roll. If\nthe attack hits, you add +10 to the attack’s damage (Once per\nmove)."
+}, {
+  "name": "Skulker",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Prerequisite\nDexterity 13\n\nYou/Pokémon are expert at slinking through shadows. You/Pokémon gain the following benefits:\n- You/Pokémon can try to hide when you/Pokémon are lightly obscured from the creature from which you are hiding.\n- When you/Pokémon are hidden from a creature and miss it with a ranged attack, making the attack doesn't reveal your position.\n- Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight."
+}, {
+  "name": "Stealthy",
+  "meta": "Pokémon 5e Feat",
+  "desc": "You/Pokémon know how best to hide. You/Pokémon gain the following benefits:\n\n- Increase your/Pokémon's Dexterity score by 1, up to a maximum of 20.\n- You/Pokémon gain proficiency in the Stealth skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n- If you/Pokémon are hidden, you/Pokémon can move up to 10 feet in the open without revealing yourself if you/Pokémon end the move in a position where you're or your Pokémon are not clearly visible."
+}, {
+  "name": "Tough",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your/Pokémon's hit point maximum increases by an amount equal to twice your/Pokémon's level when you/Pokémon gain this feat. Whenever you/Pokémon gain a level thereafter, your/Pokémon's hit point maximum increases by an additional 2 hit points."
+}, {
+  "name": "Tactician",
+  "meta": "Trainer Path",
+  "desc": "You have an eye for detail and a unique set of skills to use in battle. When you choose this path, you gain a pool of \"Tactical Points\" equal to your trainer level. Your point pool increases with each level, and resets after each long rest. At level 2, when a Pokémon regains hit points from an item or move, you may increase the amount by 1d4 for each \"Tactical Point\" spent. \n\n**Directed Strike:** \nYou know precisely where to hit a Pokémon for the maximum amount of damage. At level 5 and higher, you can spend 2 \"Tactical Points\" to roll the damage for an attack twice, taking the higher result. \n\n**Raise Your Defenses:**\nYou are quickly able to sense an incoming blow to your Pokémon. At level 9 and higher, you can use a reaction to expend up to 3 of your \"Tactical Points\" to add to a Pokémon's AC, if it would cause an attack to miss. \n\n**Not This Time:** \nAt level 15, your Pokémon are trained to be unrelenting in battle, never holding back. After an opponent rolls a saving throw for one of your Pokemon's moves, you may increase the DC by up to 5 points if it would cause a failure, spending a \"Tactical Point\" for each increase."
+}, {
+  "name": "Ranger",
+  "meta": "Trainer Path",
+  "desc": "You are comfortable in the wild, and have an incredible respect for Pokémon in their natural habitat. When you choose this path at level 2, gain proficiency in Nature and Survival. If you were already proficient, gain expertise. In addition, your walking speed increases by 5, and you gain a climbing and swimming speed equal to your walking speed.\n\n**Deep Connection:**\nYou have the innate ability to communicate with Pokémon on a different level than others. At level 5, you can cast the \"Speak with Animals\" spell to attempt to communicate with a willing Pokémon, understanding their response in your own language. Each day, you can use this feature a number of times equal to your WIS or CHA modifier (minimum of 1). \n\n**Strong Bond:** \nYour Pokémon team understands that they are in this journey together. At level 9, you can bond with up to two Pokémon at each long rest. \n\n**Best Friends:** \nAt level 15, you may have two Active Pokémon to roam the world with you, outside their balls. In battle, on your turn, you follow the same rules as if you have one Active Pokémon. The three of you can still move up to your movement speeds, but one action/reaction/bonus action is still shared by the group. If any one of your Pokémon faints, you may release another to take its place.\n"
+}, {
+  "name": "Hidden Ability",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon reaches inside itself to discover a new ability. It gains access to the Hidden Ability in its stat block. "
+}, {
+  "name": "Power Sculptor",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Your Pokémon is able to sculpt the power of their moves around their allies. For area of effect moves your Pokémon activates, choose 1 + MOVE allies in range to automatically succeed on their saving throw against taking damage or an effect. If the damage is halved for a successful save, they take no damage instead"
+}, {
+  "name": "Legendary Abilities",
+  "meta": "Optional Content",
+  "desc": "These are the official additions that the DM can add onto \"Legendary \" classified Pokemon at their own discretion. Have fun DMs\n\nLegendary Grit (X/day): If this Pokémon fails a saving throw, it can choose to succeed instead.\n\nLegendary Resilience: This Pokémon may sacrifice its action to remove a negative status effect from itself.\n\nLegendary Resistance (X/day): When this Pokémon takes damage from a move, it can choose to halve the total\n\nLegendary Attack: This Pokémon can sacrifice its action now to make two attacks on its next turn. (Or make two attacks now and sacrifice its next action)\n\nLegendary Attack 2: This Pokémon can make two attacks on its turn.\n\nLegendary Attack 3: This Pokémon has a signature move that can be used twice in one turn.\n\nLegendary Energy: This Pokémon can sacrifice an action to regain all PP for a single move.\nLegendary Energy 2 This Pokémon has double the normal PP for every move.\n\nLegendary Nimbleness: This Pokémon may move up to its speed without provoking attack of opportunity.\n\nLegendary Speed (X/day): This Pokémon may double its movement.\n\nLegendary Toughness: This Pokémon's health is based off the maximum hit dice roll for each of its levels.\n\nLegendary Reflexes: This Pokémon can use two reactions in a round of combat.\n\nLegendary Knowledge: This Pokémon can learn moves from anywhere in its move list, regardless of level.\n\nLegendary Armor (X/day): As a reaction, this Pokémon may increase its AC by (1, 2, 3) if it would cause an attack to miss."
+}, {
+  "name": "Status Effects",
+  "meta": "Pokémon 5e Rules",
+  "desc": "In addition to the previous effects such as grappled, restrained, etc., Pokémon 5e adds or modifies several new status effects as highlighted below. \n\n**Non-Volatile Statuses**\nA Pokémon can only be affected by one non-volatile status at a time. If a Pokémon is already affected by a non-volatile status, it cannot be affected by another until cured of the original status. There are four, **Poisoned, Burned, Frozen, and Paralyzed.**\n\n**Volatile Statuses**\nA Pokémon can be affected with both a volatile and nonvolatile status. Unlike non-volatile statuses, volatile status immediately end outside of combat. There are three total, **Asleep, Confused, and Flinched.** \n\nYou can look up any status by doing the following command `!cond <Name of status>` for example `!cond burned` will bring up the details of burned status.\n\n**Status \"Grace Period\"**\n When a Pokémon recovers from a status effect, they cannot\nsuccumb to the **same** effect until after the end of their next\nturn."
+}, {
+  "name": "SR",
+  "meta": "Pokémon 5e Rules",
+  "desc": "In Pokémon 5e, each Pokémon is given a \"Base Species Rating” (SR). This is different than a typical CR rating in D&D 5e, and does not fall under the traditional encounter building rules. SR is a numerical device that signifies the strength of the species as a whole, regardless of level. For example, a level 10 Pidgey (Base SR 1/8) is not as strong as a level 10 Bulbasaur (Base SR 1/2). This SR gives a guideline to compare Pokémon across species, and puts each Pokémon in a different column for experience rewards. "
+}, {
+  "name": "Mega Evolution (Simplified)",
+  "meta": "Rule",
+  "desc": "• A Pokémon may only Mega Evolve at the beginning of its turn in combat, if holding Megalite. This temporary evolution last for up to five rounds, and can only be activated once per trainer per long rest. \n\n• The Pokémon can only Mega Evolve if it is a final stage evolution at level 13 or higher. \n\n**A Mega Evolved Pokémon...**\n\n•Changes its physical form (to something mega-cool looking) \n\n•Adds temporary hit points equal to double its level (that go to zero after the Mega Evolution is over) \n\n•Increases its AC by 3 \n\n•Doubles all of its ability score modifiers for attack, damage, and saving throw rolls/DC. \n\n• Megalite is a special held item that can never be stolen or switched by moves or abilities like Covet, Pickpocket, etc.\n"
+}, {
+  "name": "Abilities",
+  "meta": "Rule",
+  "desc": "Listed on most every Pokémon's stat block are 1 or 2 special abilities unique to the species, and one Hidden Ability. A Hidden Ability may only be available for those Pokémon that take the \"Hidden Ability\" feature. For the other abilities, for each wild encounter, a DM should flip a coin to determine which of the two abilities the Pokémon has (if two are available). A trainer's starter may select one themselves.\n\nIn the case of abilities and evolution, if a Pokémon evolves and the evolved form does not have the current ability in its stat block, it must choose to replace the old ability with a new one from the evolved form's options. A Pokémon may only ever have abilities available to it on its stat block. (this includes \"Hidden Abilities\") \n\nExceptions to these rules include those Pokemon who's design depends on their abilities (Shedinja, Ditto, Slakoth, Zorua etc.)"
+}, {
+  "name": "Melee Master",
+  "meta": "Feat",
+  "desc": "Your Pokemon is a master of close combat. Gain advantage\non all attacks of opportunity. Before you make a melee attack,\nyou can choose to take a -5 penalty to the attack roll. If the\nattack hits, you add +10 to the attack’s damage (Once per\nmove)."
+}, {
+  "name": "Guru",
+  "meta": "Trainer Path",
+  "desc": "You and your Pokémon are connected by way of more than just trainer and beast. Your past has trained you to be in complete control of your Mind, Body, and Spirit, and you transfer that aura to your Pokémon. When you choose this path at level 2, you gain proficiency in the Persuasion skill. In addition, Pokémon not yet able to be controlled by you are set at the \"Indifferent\" loyalty level instead of \"Disloyal\" until the Control Upgrade is met.\n\n**Mind**\nYour presence in battle keeps your Pokémon at ease, so that they can fully focus on the task at hand without distraction. At level 5, all of your Pokémon are proficient in Wisdom saving throws and have advantage on the roll to avoid failing confusion.\n\n**Body**\nYou have trained your Pokémon to focus deep within themselves to unleash their full potential. At level 9, all of your Pokémon have access to both of their non-hidden abilities (if two are available). In addition, the Tireless feat now costs one ASI point instead of two at levels 4, 8, 12, 16, or 20. If any of your Pokémon already has this feature, they may gain one ASI at this time.\n\n**Spirit**\nYour connection to your Pokémon is masterful. Trainer and beast move together in perfect harmony. At level 15, you may control a Pokémon as if it were an extension of your body. At the beginning of your turn, you may activate this feature to add your WIS modifier to all attack OR damage rolls your Pokémon makes until the beginning of your next turn. The option of attack OR damage must be selected each time this is activated, and cannot change during the round. You may use this feature a number of times equal to 1 + your Wisdom modifier (minimum of 1), resetting this pool at each long rest."
+}, {
+  "name": "Critical Hits",
+  "meta": "Rule",
+  "desc": "Due to the large availability of moves/items/abilities that increase critical hit range, a “critical hit” in this system means that you double the damage dice for the roll. The ONLY critical hit that is an “automatic” hit in Pokémon 5e is a natural 20. No exceptions."
+}, {
+  "name": "Nature Chart",
+  "meta": "Rule",
+  "desc": "**Reckless:** +2 Strength, -2 Dexterity\n\n**Rash:** +2 Strength, -2 Constitution\n\n**Brave:** +2 Strength, -2 Wisdom\n\n**Arrogant:** +2 Strength, -2 Charisma\n\n**Skittish:** +2 Dexterity, -2 Strength\n\n**Hasty:** +2 Dexterity, -2 Constitution\n\n**Energetic:** +2 Dexterity, -2 Charisma\n\n**Clumsy:** +2 Dexterity, -2 Wisdom\n\n**Apathetic:** +2 Constitution, -2 Dexterity\n\n**Stubborn:** +2 Constitution, -2 Wisdom\n\n**Grumpy:** +2 Constitution, -2 Charisma\n\n**Relaxed:** +2 Constitution, -2 Strength\n\n**Careful:** +2 Wisdom, -2 Strength\n\n**Curious:** +2 Wisdom, -2 Constitution\n\n**Naughty:** +2 Wisdom, -2 Charisma\n\n**Cheerful:** +2 Charisma, -2 Strength\n\n**Sassy:** +2 Charisma, -2 Dexterity\n\n**Innocent:** +2 Charisma, -2 Wisdom\n\n**Hardy:** +1 AC, -2 Dexterity\n\n**Nimble:** + 1 AC, -2 Strength"
+}, {
+  "name": "RRRRG (Reach Recalling/Releasing Raised/Grounded)",
+  "meta": "Rule",
+  "desc": "**Reach**\n- The \"Reach\" of a Pokémon is the maximum distance the Pokémon can attack a target in melee range. If a creature leaves the reach of a Pokémon, an attack of opportunity is triggered. In Pokémon 5e, creatures that are \"Large\" or smaller have a standard 5 feet of reach, while those bigger than \"Large\" have 10 feet of reach.\n\n**Recalling and Releasing**\n- A trainer may switch out a Pokémon as a standard action on their turn. If a trainer's Pokémon faints, it must be switched out immediately (if within range), prior to the beginning of the trainer's next turn.\n\n- In order to recall a Pokémon back to its Pokéball, your trainer must be within 60 feet of the creature. If a Pokémon faints outside of this range, it may not be switched until the trainer is within range. A Pokémon released must appear anywhere within 15 feet of the trainer.\n\n- When a Pokémon returns to its Pokéball, concentration ends and all move and item-based buffs and debuffs are nullified. Examples include any effects from Focus Energy, Harden, Sand Attack, Disable, X-Attack, Stockpile, etc. Status effects except for Confusion and Flinched remain in effect, but damage is not taken from Poison and Burn while inside the Pokéball.\n\n\n**Raised and Grounded**\n- A \"Raised\" creature is any creature currently utilizing its flying or hover speed, or those with the \"Levitate\" ability holding an \"Air Balloon\", or under the effect of the \"Magnet Rise\" or \"Telekinesis\" moves.\n\n- A \"Grounded\" creature is any creature without or not currently utilizing a flying or hover speed, or one that is knocked prone or has its flying or hover speed reduced to zero."
+}, {
+  "name": "Actor",
+  "meta": "Pokemon 5e Feat",
+  "desc": "Your Pokémon is skilled at mimicry and dramatics, your Pokémon gain the following benefits:\n\n- Increase your/pokemons Charisma score by 1, up to a maximum of 20.\n- your/pokemons has advantage on Charisma(Deception) and Charisma(Performance) checks when trying to pass itself off as a different creature.\n- your/pokemons can mimic the speech of another creature. your/pokemons must have hears the creature speaking, or heard the creature make the sound for at least 1 minute. A successful Wisdom(Insight) check contested by your/pokemons Charisma (deception) check allows a listener to determine that the effect is faked. "
+}, {
+  "name": "Observant",
+  "meta": "Pokemon 5e Feat",
+  "desc": "• Increases your/pokemons Intelligence or Wisdom by 1, to a maximum of 20.\n\n• If you/pokemon can see a creature's mouth while it is speaking a language you/pokemon understand, you/pokemon can interpret their words by reading their lips.\n\n• you/pokemon have a +5 bonus to your passive Wisdom (Perception) and Intelligence (Investigation) scores."
+}, {
+  "name": "Skilled",
+  "meta": "Pokemon 5e Feat",
+  "desc": "your/pokemon gain proficiency in any combination of three skills or tools of your choice."
+}, {
+  "name": "Able-Bodied",
+  "meta": "Pokemon 5e Feat",
+  "desc": "Your Pokemon's body is trained to learn from and fight off ailments for long periods of time. After recovering from a status effect, this Pokemon becomes immune to the same status for 3 rounds."
+}, {
+  "name": "Poisoned",
+  "meta": "Non-Volatile Status",
+  "desc": "A poisoned creature has disadvantage on all ability checks and attack rolls, and takes an amount of damage equal to its proficiency bonus at the end of each of its turns until it faints or is cured of its poison. (Poison and Steel types are immune to this status condition)"
+}, {
+  "name": "Frozen",
+  "meta": "Non-Volatile Status",
+  "desc": "A frozen creature is incapacitated and restrained. In combat, it can attempt to break free of the ice with a STR save at the end of each of its turns against a DC of 10 + the proficiency bonus of the creature that caused this status. Outside of combat, the frozen status lasts for one hour. The frozen status ends immediately if the frozen creature takes damage from a move that has the possibility of causing the \"burned\" status. (Ice types are immune to this status condition)"
+}, {
+  "name": "Burned",
+  "meta": "Non-Volatile Status",
+  "desc": "A burned Pokémon rolls all damage rolls twice and takes the lower result (this bypasses and does not cancel out with things like Savage Attacker, Iron Fist, Weather, etc). In addition, the creature takes an amount of damage equal to its proficiency bonus at the beginning of each of its turns until it faints or is cured of its burns. (Fire types are immune to this status condition)"
+}, {
+  "name": "Paralyzed",
+  "meta": "Non-Volatile Status",
+  "desc": "A paralyzed creature has disadvantage on any STR or DEX saving throws and moves at half speed. When a paralyzed Pokémon begins its turn, it must first roll a d4. On a result of 1, the Pokémon is incapacitated and restrained until the beginning of their next turn and must forfeit their remaining action and bonus action to their trainer. If a creature is paralyzed and confused/asleep, the paralysis roll comes first. If it fails, it does not roll to wake or be confused. (Electric types are immune to this status condition)\n"
+}, {
+  "name": "Asleep",
+  "meta": "Volatile Status",
+  "desc": "A creature that falls asleep is affected immediately and through its next three full turns in battle. During this time, the creature is incapacitated and restrained, and rolls all saving throws with disadvantage. A sleeping creature can roll a d20 when subject to a move AND at the end of each of its turns, ending the status immediately on a result of 11 or higher."
+}, {
+  "name": "Confused",
+  "meta": "Volatile Status",
+  "desc": "A confused creature is affected immediately and for three rounds. During this time, it loses its ability to take reactions and its speed is halved. When a Confused Pokémon uses an action or bonus action on its turn, it must first roll a d20. On a result of 10 or lower, the Pokémon drops concentration, hurts itself for an amount of typeless damage equal to its proficiency modifier, and the move fails. On a roll of 16 or higher, the status ends immediately."
+}, {
+  "name": "Flinched",
+  "meta": "Volatile Status",
+  "desc": "A flinched Pokémon has disadvantage on any attack roll, skill check, or saving throw it makes before the end of its next turn. If it activates a move that requires a saving throw during that time, the target has advantage on the roll."
+}, {
+  "name": "Pokemon Breeder",
+  "meta": "Trainer Path",
+  "desc": "You have a fascination with Pokémon that has led you down the path of raising them carefully to create specific improvements in their species. When you attempt to breed two Pokémon, you may add your WIS modifier to the d20 roll for a successful attempt.\n\n**Tender Love and Care:**\nAs a Breeder, you have studied Pokémon eggs and know just what they need to create the perfect environment for optimal growth, no matter the species. When you reach level 5, gain advantage on all rolls that reduce the incubation counter for Pokémon egg hatching times.\n\n**Good Genes:**\nYour skill as a Breeder shines, as people around begin to notice how much stronger your Pokémon seem to be than their typical counterparts. When you reach level 9, any Pokémon you hatch (or have hatched) from an egg gain 2 points to add to their ability score, or spend on a feat.\n\n**Master of Traits:**\nYou are a master of your craft, able to raise a new Pokémon to your perfect specifications. When you reach level 15, for any future hatched Pokémon, you may ignore the roll and hand-pick the Gender, Nature, and Ability of the resulting Pokémon (from available options). In addition, if any of your future hatched Pokémon inherits at least one Egg Move, you may replace the inherited move(s) with any other move(s) from its Egg Moves list."
+}, {
+  "name": "Breeding and Eggs pt. 1",
+  "meta": "Pokemon 5e Rules",
+  "desc": "Ah, the birds and the Beedrills. Pokémon do not simply appear out of thin air - they are born into your world as babies and grow and thrive to become powerful monsters. The following is the rules for breeding and pokemon eggs. \n\n**Pokemon Eggs**\nA Pokémon egg is an object from which most Pokémon are known to hatch. An egg's shell will usually have a pattern that reflects the appearance of the Pokémon developing inside.  It is worth mentioning that no one has ever seen a Pokémon lay an egg, and thus, it is not confirmed that this is how they appear.\n\n**Creating an Egg**\nAt the end of each in-campaign day (or session, if you see fit as GM), a player may choose to have two of their carried Pokémon \"breed\" in an attempt to create an egg. (If your world would contain Pokémon Daycares, you may choose for this to only be allowed at those locations, but I am not making that a requirement.)\n\n**General Rules**\nPokémon will only breed with other Pokémon owned by the same trainer.\n\n• Pokémon of Loyalty less than +2 refuse to breed.\n\n• Two Pokémon can only breed if they are of opposite genders and within the same \"Egg Group\" (explained later. There are some exceptions to this rule).\n\n• The Pokémon species created will always be at the minimum found level of the lowest evolutionary form of the female parent.\n\n• Holding an egg takes up one of its trainer's Pokeslots.\n\n• To determine whether or not a breeding attempt was successful, a player will roll a straight d20 against a DC determined by the total Loyalty levels of both parent Pokémon.\n\nTotal Loyalty: 4  = Success DC: 19\nTotal Loyalty: 5  = Success DC: 18\nTotal Loyalty: 6  = Success DC: 17\n\n**An Egg is tiny sized,  has an AC of 8, 10 Hit Points, and 0 speed. It has an ability Score of 8 in all abilities, and its type is dependant on the pokemon inside.**\n\nSee `Incubation/Egg Handling` and `Breeding and Eggs pt 2` for the details on how incubation works and the details on the pokemon that is hatched. \n\nAlso see `Breeding Egg Groups` for a list of all the pokemon egg groups."
+}, {
+  "name": "Incubation/Egg Handling",
+  "meta": "Pokemon 5e Rules",
+  "desc": "**Incubation**\n\nWhen an egg is created, it begins an incubation counter to determine how long it will take for the egg to hatch. Progress against this timer may only be made if the egg is being carried by its trainer through the night or a significant portion of the prior session. A trainer will roll 1d100 at the beginning of each in-campaign day (or session), and reduce the remaining counter by the result. Hatch times below are listed based on the Species Rating of Pokémon inside the egg.\n\n**SR | Hatch Time**\n1/8 | 125\n1/4 | 250\n1/2 | 500\n1 | 600\n2 | 700\n3 | 800\n4 | 900\n5 | 1000\n6 | 1100\n7 | 1200\n8 | 1300\n9 | 1400\n10 | 1500\n11 | 1600\n12 | 1700\n13 | 1800\n14 | 1900\n15 | 2000\n\n**Egg Handling**\n\nAn egg is a fragile thing, but for trainers on a budget, your bag or backpack can be a suitable place for safe-keeping. A backpack keeps it close to your body for heat, but can leave it vulnerable to shaking and damage if the trainer is attacked. An egg is destroyed once it hits 0 hit points. Extra caution is advised when carrying an egg in your bag. \n\nFor the more heavy-pocketed trainers, Incubators may be available for sale, offering an artificial, self-contained habitat especially catered to keeping your egg in pristine condition while you wait for it to hatch. Once an incubator has been used, however, it loses its effectiveness for the next egg and is no better than a backpack. There are three types Basic, Plus, and Super. Too look up these specifics use `!item TYPE incubator` for example to look up a Super incubator do `!item Super Incubator`"
+}, {
+  "name": "Breeding Rules pt. 2",
+  "meta": "Pokemon 5e Rules",
+  "desc": "Congratulations! You've created an egg! Now to begin the long process of patiently waiting for it to hatch. In the meantime, here is how you determine the features of the Pokémon species you may find at the end of its incubation period!\n\n**Species**\nAs described above, the resulting Pokémon's species is that of the female parent's lowest evolutionary form, and at its minimum found level listed in its stat block.\n\n**Nature**\nThe Nature of the hatched Pokémon should be determined by a random d20 roll against the Nature table of the Pokémon Care section of this manual. It is not affected by the breeding parents.\n\n**Gender**\nThe gender of the hatched Pokémon should be determined by a d100 roll against the Gender Rate in the hatched Pokémon's stat block.\n\n**Moves**\nA bred Pokémon is unique due to the ability to inherit certain moves from its parents that it may not normally learn, or learn at a later level. At hatching, you may select any \"Starting Moves\" from the Pokémon's move list as its known moves at level 1. The following moves are immediately added to a hatched Pokemon's \"Starting Moves\" pool to be selected:\n1. Any Egg Move listed in the hatched Pokemon's stat block that is KNOWN by either parent at the time of breeding.\n2. Any move KNOWN by both parents at the time of breeding, so long as it is able to be learned by the hatched Pokemon in its natural progression (excluding TMs)\n\n**Abilities**\nWhen an egg hatches, its owner should flip a coin. On a result of heads, the hatched Pokémon inherits the female parent's current non-hidden ability in place of its own. On a result of tails, the ability known by the hatched Pokémon should be determined at random from its own option by flip of a coin, similar to a wild encounter.\n\n**Bonus**\nAll hatched Pokémon begin at Loyalty +1 (Content). If a Pokémon spends its entire incubation period in your party, the Loyalty level becomes +2 (Pleased).\n\n**Special Rules**\nThere are just a few circumstances that should be noted here when considering breeding.\n1. Ditto is a very special case of genderless Pokémon. Any male or female Pokémon can breed with it, regardless of gender or Egg Group. The species of the hatched Pokémon that results from breeding with a Ditto is always based on the \"non-ditto\" Pokémon, whether male or female.\n2. Baby and Legendary Pokémon cannot breed. These are listed in the \"Undiscovered\" Egg Group for convenience.\n3. Certain species of Pokémon such as Nidoran have specific genders that have their own stat blocks. Breeding with one may result in a Pokémon of a different species than itself. (Example: A Nidoran Female may produce a Nidoran Female or Nidoran Male egg, which should be determined with a d100 roll against the gender rate listed in its stat block.)"
+}, {
+  "name": "Breeding Egg Groups",
+  "meta": "Pokemon 5e Rules",
+  "desc": "The list of Egg Groups in pokemon breeding are as follows. You can look up each egg group specifically to find out what pokemon are in that egg group with `!prules EG Name` for example if you wanted to look up the monster egg group do `!prules EG Monster`. \n\nMonster\nHuman-Like\nWater 1\nWater 2\nWater 3\nBug\nMineral\nFlying\nAmorphous\nFairy\nDitto\nDragon\nField\nGrass\nGender Unkown\nUndiscovered\n\nAll egg groups are seperated into two sections, Exclusive to the group, and shares another egg group, for the pokemon in that group."
+}, {
+  "name": "EG Monster",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Monster Group**\nAggron, Amaura, Aron, Aurorus, Bastiodon, Cranidos, Cubone, Kangaskhan, Lairon, Larvitar, Lickilicky, Lickitung, Marowak, Pupitar, Rampardos, Shieldon, Snorlax, Tyranitar\n\n**Shares Another Egg Group**\nAbomasnow, Ampharos, Avalugg, Axew, Bayleef, Bergmite, Blastoise, Bulbasaur, Charizard, Charmander, Charmeleon, Chikorita, Croconaw, Drampa, Druddigon, Exploud, Fraxure, Feraligatr, Flaaffy, Gabite, Garchomp, Gible, Grotle, Grovyle, Haxorus, Heliolisk, Helioptile, Ivysaur, Lapras, Loudred, Mareep, Marshtomp, Meganium, Mudkip, Nidoking, Nidoqueen, Nidoran♀, Nidoran♂, Nidorina, Nidorino, Rhydon, Rhyhorn, Rhyperior, Salandit, Salazzle, Sceptile, Slowbro, Slowking, Slowpoke, Snover, Squirtle, Swampert, Torterra, Totodile, Treecko, Tropius, Turtonator, Turtwig, Tyrantrum, Tyrunt, Venusaur, Wartortle, Whismur\n"
+}, {
+  "name": "EG Human-Like",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Human-Like Group**\nAbra, Alakazam, Beheeyem, Bisharp, Conkeldurr, Croagunk, Drowzee, Electabuzz, Electivire, Elgyem, Gothita, Gothitelle, Gothorita, Gurdurr, Hariyama, Hitmonchan, Hitmonlee, Hitmontop, Hypno, Jynx, Kadabra, Machamp, Machoke, Machop, Magmar, Magmortar, Makuhita, Medicham, Meditite, Mr. Mime, Pawniard, Sableye, Sawk, Throh, Timburr, Toxicroak\n\n**Shares Another Egg Group**\nBuneary, Cacnea, Cacturne, Chimchar, Gallade, Gardevoir, Hawlucha, Illumise, Infernape, Kirlia, Lopunny, Lucario, Mienfoo, Mienshao, Monferno, Pancham, Pangoro, Ralts, Spinda, Volbeat"
+}, {
+  "name": "EG Water 1",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Water 1 Group**\nClamperl, Froakie, Frogadier, Gorebyss, Greninja, Huntail, Mantine, Mareanie, Palpitoad, Politoed, Poliwag, Poliwhirl, Poliwrath, Pyukumuku, Seismitoad, Toxapex, Tympole\n\n**Shares Another Egg Group**\nAlomomola, Araquanid, Azumarill, Bibarel, Bidoof, Blastoise, Brionne, Buizel, Carracosta, Clauncher, Clawitzer, Corphish, Corsola, Crawdaunt, Croconaw, Delibird, Dewgong, Dewpider, Dragalge, Dragonair, Dragonite, Dratini, Ducklett, Empoleon, Feebas, Feraligatr, Floatzel, Gastrodon, Golduck, Horsea, Inkay, Kabuto, Kabutops, Kingdra, Lapras, Lombre, Lotad, Ludicolo, Malamar, Marill, Marshtomp, Masquerain, Milotic, Mudkip, Octillery, Omanyte, Omastar, Pelipper, Piplup, Popplio, Primarina, Prinplup, Psyduck, Quagsire, Relicanth, Remoraid, Seadra, Sealeo, Seel, Shellos, Skrelp, Slowbro, Slowking, Slowpoke, Spheal, Squirtle, Stunfisk, Surskit, Swampert, Swanna, Tirtouga, Totodile, Walrein, Wartortle, Wingull, Wooper\n"
+}, {
+  "name": "EG Water 2",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Water 2 Group**\nBarboach, Basculin, Bruxish, Carvanha, Chinchou, Finneon, Goldeen, Lanturn, Lumineon, Luvdisc, Qwilfish, Seaking, Sharpedo, Whiscash, Wishiwashi\n\n**Shares Another Egg Group**\nAlomomola, Gyarados, Inkay, Magikarp, Malamar, Octillery, Relicanth, Remoraid, Wailmer, Wailord\n"
+}, {
+  "name": "EG Water 3",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Water 3 Group**\nAnorith, Armaldo, Barbaracle, Binacle, Cloyster, Crabominable, Crabrawler, Cradily, Kingler, Krabby, Lileep, Shellder, Tentacool, Tentacruel\n\n**Shares Another Egg Group**\nArchen, Archeops, Carracosta, Clauncher, Clawitzer, Corphish, Corsola, Crawdaunt, Drapion, Golisopod, Kabuto, Kabutops, Omanyte, Omastar, Skorupi, Tirtouga, Wimpod\n"
+}, {
+  "name": "EG Bug",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Bug Group**\nAccelgor, Ariados, Beautifly, Beedrill, Burmy, Butterfree, Cascoon, Caterpie, Charjabug, Combee, Durant, Dustox, Escavalier, Forretress, Galvantula, Gligar, Gliscor, Grubbin, Heracross, Joltik, Kakuna, Karrablast, Kricketot, Kricketune, Larvesta, Leavanny, Ledian, Ledyba, Metapod, Mothim, Nincada, Ninjask, Pineco, Pinsir, Scatterbug, Scizor, Scolipede, Scyther, Sewaddle, Shelmet, Shuckle, Silcoon, Spewpa, Spinarak, Swadloon, Venipede, Venomoth, Venonat, Vespiquen, Vikavolt, Vivillon, Volcarona, Weedle, Whirlipede, Wormadam, Wurmple, Yanma, Yanmega\n\n**Shares Another Egg Group**\nAraquanid, Crustle, Cutiefly, Dewpider, Drapion, Dwebble, Flygon, Golisopod, Illumise, Masquerain, Paras, Parasect, Ribombee, Skorupi, Surskit, Trapinch, Vibrava, Volbeat, Wimpod\n"
+}, {
+  "name": "EG Mineral",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Mineral Group**\nAegislash, Boldore, Doublade, Garbodor, Geodude, Gigalith, Golem, Graveler, Honedge, Klefki, Nosepass, Onix, Probopass, Roggenrola, Steelix, Sudowoodo, Trubbish, Vanillish, Vanillite, Vanilluxe\n\n**Shares Another Egg Group**\nAvalugg, Bergmite, Cofagrigus, Crustle, Dwebble, Ferroseed, Ferrothorn, Froslass, Glalie, Snorunt, Yamask"
+}, {
+  "name": "EG Flying",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Flying Group**\nAerodactyl, Braviary, Chatot, Crobat, Dartrix, Decidueye, Dodrio, Doduo, Fearow, Fletchinder, Fletchling, Golbat, Honchkrow, Hoothoot, Mandibuzz, Murkrow, Natu, Noctowl, Oricorio, Pidgeot, Pidgeotto, Pidgey, Pidove, Pikipek, Rowlet, Rufflet, Sigilyph, Skarmory, Spearow, Staraptor, Staravia, Starly, Swellow, Taillow, Talonflame, Toucannon, Tranquill, Trumbeak, Unfezant, Vullaby, Xatu, Zubat\n\n**Shares Another Egg Group**\nAltaria, Archen, Archeops, Ducklett, Farfetch'd, Hawlucha, Noibat, Noivern, Pelipper, Swablu, Swanna, Swoobat, Togekiss, Togetic, Wingull, Woobat\n"
+}, {
+  "name": "EG Amorphous",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Amorphous Group**\nBanette, Chandelure, Chimecho, Drifblim, Drifloon, Duosion, Dusclops, Dusknoir, Duskull, Eelektrik, Eelektross, Frillish, Gastly, Gengar, Gourgeist, Grimer, Gulpin, Haunter, Jellicent, Koffing, Lampent, Litwick, Magcargo, Mimikyu, Misdreavus, Mismagius, Muk, Palossand, Pumpkaboo, Reuniclus, Sandygast, Shuppet, Slugma, Solosis, Spiritomb, Swalot, Tynamo, Weezing, Wobbuffet\n\n**Shares Another Egg Group**\nCastform, Cofagrigus, Gallade, Gardevoir, Gastrodon, Kirlia, Phantump, Ralts, Shellos, Stunfisk, Trevenant, Yamask\n"
+}, {
+  "name": "EG Fairy",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Fairy Group**\nAromatisse, Audino, Blissey, Chansey, Clefable, Clefairy, Fabébé, Floette, Florges, Jigglypuff, Minun, Plusle, Slurpuff, Spritzee, Swirlix, Wigglytuff\n\n**Shares Another Egg Group**\nAzumarill, Breloom, Carbink, Castform, Cherrim, Cherubi, Cottonee, Cutiefly, Dedenne, Delcatty, Froslass, Glalie, Granbull, Hoppip, Jumpluff, Manaphy, Marill, Mawile, Pachirisu, Phione, Pikachu, Raichu, Ribombee, Roselia, Roserade, Shroomish, Skiploom, Skitty, Snorunt, Snubbull, Togedemaru, Togekiss, Togetic, Whimsicott"
+}, {
+  "name": "EG Ditto",
+  "meta": "Breeding Egg Group",
+  "desc": "Just ditto. Only Ditto is in this group. "
+}, {
+  "name": "EG Dragon",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Dragon Group**\nBagon, Deino, Goodra, Goomy, Hakamo-o, Hydreigon, Jangmo-o, Kommo-o, Salamence, Shelgon, Sliggoo, Zweilous\n\n**Shares Another Egg Group**\nAltaria, Arbok, Axew, Charizard, Charmander, Charmeleon, Dragalge, Dragonair, Dragonite, Drampa, Dratini, Druddigon, Ekans, Feebas, Flygon, Fraxure, Gabite, Garchomp, Gible, Grovyle, Gyarados, Haxorus, Heliolisk, Helioptile, Horsea, Kingdra, Magikarp, Milotic, Noibat, Noivern, Salandit, Salazzle, Sceptile, Scrafty, Scraggy, Seadra, Seviper, Skrelp, Swablu, Trapinch, Treecko, Turtonator, Tyrantrum, Tyrunt, Vibrava\n"
+}, {
+  "name": "EG Field",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Field Group**\nAbsol, Aipom, Ambipom, Arcanine, Beartic, Bewear, Blaziken, Blitzle, Bouffalant, Braixen, Bunnelby, Camerupt, Chesnaught, Chespin, Cinccino, Combusken, Cubchoo, Cyndaquil, Darmanitan, Darumaka, Deerling, Delphox, Dewott, Diggersby, Diglett, Donphan, Drillbur, Dugtrio, Dunsparce, Eevee, Electrike, Emboar, Emolga, Espeon, Espurr, Excadrill, Fennekin, Flareon, Furfrou, Furret, Girafarig, Glaceon, Glameow, Gogoat, Growlithe, Grumpig, Gumshoos, Heatmor, Herdier, Hippopotas, Hippowdon, Houndoom, Houndour, Incineroar, Jolteon, Kecleon, Komala, Krokorok, Krookodile, Leafeon, Liepard, Lillipup, Linoone, Litleo, Litten, Luxio, Luxray, Lycanroc, Mamoswine, Manectric, Mankey, Meowstic, Meowth, Mightyena, Miltank, Minccino, Mudbray, Mudsdale, Munna, Musharna, Ninetales, Numel, Oranguru, Oshawott, Panpour, Pansage, Pansear, Passimian, Patrat, Persian, Phanpy, Pignite, Piloswine, Ponyta, Poochyena, Primeape, Purrloin, Purugly, Pyroar, Quilava, Quilladin, Rapidash, Raticate, Rattata, Rockruff, Samurott, Sandile, Sandshrew, Sandslash, Sawsbuck, Sentret, Shinx, Simipour, Simisage, Simisear, Skiddo, Skuntank, Slaking, Slakoth, Smeargle, Sneasel, Spoink, Stantler, Stoutland, Stufful, Stunky, Swinub, Sylveon, Tauros, Teddiursa, Tepig, Torchic, Torkoal, Torracat, Typhlosion, Umbreon, Ursaring, Vaporeon, Vigoroth, Vulpix, Watchog, Weavile, Yungoos, Zangoose, Zebstrika, Zigzagoon, Zoroark, Zorua\n\n**Shares Another Egg Group**\nAmpharos, Arbok, Bibarel, Bidoof, Brionne, Buizel, Buneary, Chimchar, Dedenne, Delcatty, Delibird, Dewgong, Ekans, Empoleon, Exploud, Farfetch'd, Flaaffy, Floatzel, Golduck, Granbull, Infernape, Lopunny, Loudred, Lucario, Mareep, Mawile, Mienfoo, Mienshao, Monferno, Nidoking, Nidoqueen, Nidoran♀, Nidoran♂, Nidorina, Nidorino, Nuzleaf, Pachirisu, Pancham, Pangoro, Pikachu, Piplup, Popplio, Primarina, Prinplup, Psyduck, Quagsire, Raichu, Rhydon, Rhyhorn, Rhyperior, Scrafty, Scraggy, Sealeo, Seedot, Seel, Serperior, Servine, Seviper, Shiftry, Skitty, Snivy, Snubbull, Spheal, Spinda, Swoobat, Togedemaru, Wailmer, Wailord, Walrein, Whismur, Woobat, Wooper\n"
+}, {
+  "name": "EG Grass",
+  "meta": "Breeding Egg Group",
+  "desc": "**Exclusive to Grass Group**\nAmoonguss, Bellossom, Bellsprout, Bounsweet, Carnivine, Comfey, Exeggcute, Exeggutor, Fomantis, Foongus, Gloom, Lilligant, Lurantis, Maractus, Morelull, Oddish, Petilil, Shiinotic, Steenee, Sunflora, Sunkern, Tangela, Tangrowth, Tsareena, Victreebell, Vileplume, Weepinbell \n\n**Shares Another Egg Group**\nAbomasnow, Bayleef, Breloom, Bulbasaur, Cacnea, Cacturne, Cherrim, Cherubi, Chikorita, Cottonee, Ferroseed, Ferrothorn, Grotle, Hoppip, Ivysaur, Jumpluff, Lombre, Lotad, Ludicolo, Meganium, Nuzleaf, Paras, Parasect, Phantump, Roselia, Roserade, Seedot, Serperior, Servine, Shiftry, Shroomish, Skiploom, Snivy, Snover, Torterra, Trevenant, Tropius, Turtwig, Venusaur, Whimsicott\n"
+}, {
+  "name": "EG Gender Unknown",
+  "meta": "Breeding Egg Group",
+  "desc": "**Pokemon in this group can only breed with Ditto.**\n\n_Exclusive to Gender Unknown Group_\n\nBaltoy, Beldum, Bronzong, Bronzor, Carbink, Claydol, Cryogonal, Dhelmise, Electrode, Golett, Golurk, Klang, Klink, Klinklang, Lunatone, Magnemite, Magneton, Magnezone, Manaphy, Metagross, Metang, Minior, Phione, Porygon, Porygon-Z, Porygon2, Rotom, Shedinja, Solrock, Starmie, Staryu, Voltorb"
+}, {
+  "name": "EG Undiscovered",
+  "meta": "Breeding Egg Group",
+  "desc": "**All Pokemon in this group are unable to produce eggs.**\n\n_Exclusive to Undiscovered Group_\n\nArceus, Articuno, Azelf, Azurill, Blacephalon, Bonsly, Budew, Buzzwole, Celebi, Celesteela, Chingling, Cleffa, Cobalion, Cosmoem, Cosmog, Cresselia, Darkrai, Deoxys, Dialga, Diancie, Elekid, Entei, Genesect, Giratina, Greninja, Groudon, Guzzlord, Happiny, Heatran, Ho-Oh, Hoopa, Igglybuff, Jirachi, Kartana, Keldeo, Kyogre, Kyurem, Landorus, Latias, Latios, Lugia, Lunala, Magby, Magearna, Mantyke, Marshadow, Melmetal, Meloetta, Meltan, Mesprit, Mew, Mewtwo, Mime Jr., Moltres, Munchlax, Naganadel, Necrozma, Nihilego, Palkia, Pheromosa, Pichu, Poipole, Raikou, Rayquaza, Regice, Regigigas, Regirock, Registeel, Reshiram, Riolu, Shaymin, Silvally, Smoochum, Solgaleo, Stakataka, Suicune, Tapu Bulu, Tapu Fini, Tapu Koko, Tapu Lele, Terrakion, Thundurus, Togepi, Tornadus, Type: Null, Tyrogue, Unown, Uxie, Victini, Virizion, Volcanion, Wynaut, Xerneas, Xurkitree, Yveltal, Zapdos, Zekrom, Zeraora, Zygarde"
+}, {
+  "name": "Pokemon Speeds",
+  "meta": "Pokemon 5e Rules",
+  "desc": "The following are some additional clarifications and things to keep in mind regarding special types of movement speed.\n\n**Flying and Hover**\nFlying and Hovering Pokémon have nearly unlimited height potential with their speeds. As such, they have a decent-sized advantage on the battlefield, able to often take away melee attacks in one on one situations with the right strategy. I’ve made an effort to expand the ranges of moves like Smack Down that work to counter this strategy, but here are some Pokémon 5e-specific rules when facing or using Pokémon with a fly speed:\n\n- Maintaining flight while accurately attacking at range requires a good deal of focus and energy for a creature. Any ranged attacks used by Pokémon in mid flight have disadvantage if the target is beyond half the move’s maximum range. If the move requires a saving throw, those Pokémon beyond half the maximum range have advantage on the roll. A Pokémon with “hover” is only considered in “mid-flight” if it is more than 10 feet off the ground.\n\n- If a flying or hovering Pokémon's flying or hover speed is reduced to zero (by becoming restrained, incapacitated by a status, hit with a move that forces the Pokémon to fall prone, etc.), the Pokémon will fall to the ground. Those with a flying speed will take 1d6 typeless damage for every 10 feet they fall, up to a maximum of 20d6. Those with a hover speed will fall, but slow enough that they do not take fall damage.\n\n**Burrowing**\nSome Pokémon are natural-born diggers, able to churn through sand, mud, dirt, snow, and ice more easily than other creatures.\n\n- A Pokémon can use its full burrow speed to move parallel to the ground, just below the surface, in dirt, mud, sand, snow, or ice. A creature that moves in this way is still able to be targeted by attacks and attacks of opportunity as if it would be above ground. If the Pokémon attempts to descend further, it is treated as difficult terrain. A burrowing creature leaves a tunnel in its path which is considered difficult terrain for any creature without a burrowing speed.\n"
+}, {
+  "name": "Weather",
+  "meta": "Pokemon 5e Rules",
+  "desc": "Weather plays a large role in Pokémon 5e. Many Pokémon have abilities that are affected by the surrounding weather or terrain, and weather can impact the power of certain Pokémon types. Be sure to implement weather into your game as much as possible! Below is an example d100 table you can roll on at the beginning of each day to determine the weather. Alternatively, it may be fun to determine the weather by what is actually happening outside your game table!\n\nThe effects below have been simplified from the main games, and can be completely optional without breaking your own game. Each type of move listed in the \"Move Types Affected\" can roll its damage rolls twice and take the higher result.\n\nYou can look up each table as they are split into two look ups. Just do `!prules weather spring` or `!prules weather fall` and the bot will load those respective tables. \n\nHail and Sandstorm have special rules and they are as follows. \n\n**These are special weather-related phenomenon that can occur naturally or in specific areas as the result of moves/abilities like Hail, Sandstorm, Snow Warning, and Sand Stream.**\n\n*Hail*\nAt the beginning of a creature's turn for 5 rounds, any non ice-type Pokémon take ice damage equal to the level of the creature that created this weather, divided by 2, rounded up. If the weather occurred in nature, no damage is dealt.\n\n*Sandstorm*\nAt the beginning of a creature's turn for 5 rounds, any non rock-, steel- or ground-type Pokémon take rock damage equal to the level of the creature that created this weather, divided by 2, rounded up. If the weather occurred in nature, no damage is dealt.\n"
+}, {
+  "name": "Weather Spring/Summer",
+  "meta": "Pokemon 5e Rules",
+  "desc": "Here is the roll table for Spring and Summer Weather. \n\n**| d100  | Weather | Move Types Affected (Optional) advantage on damage rolls**\n|  1-25  | Harsh Sun, Calm| Grass, Ground, Fire\n|  26-35  | Harsh Sun, Windy | Grass, Ground, Fire, Flying, Dragon, Psychic\n|  36-65  | Cloudy, Calm | Normal, Rock, Fairy, Fighting, Poison\n|  66-75  | Cloudy, Windy | Normal, Rock, Fairy, Fighting, Poison, Flying, Dragon, Psychic\n|  76-80  | Foggy | Dark, Ghost\n|  81-90  | Light Drizzle | Water, Electric, Bug\n|  91-99  | Heavy Rain | Water, Electric, Bug\n|  100  | Dangerous Storm | Water, Electric, Bug\n\nTo look up the weather table for Fall/Winter, just run this command, `!prules weather fall` and the bot will load those respective table."
+}, {
+  "name": "Weather Fall/Winter",
+  "meta": "Pokemon 5e Rules",
+  "desc": "Here is the roll table for Spring and Summer Weather. \n\n**| d100  | Weather | Move Types Affected (Optional) advantage on damage rolls**\n|  1-15  | Harsh Sun, Calm | Grass, Ground, Fire\n|  16-25  | Harsh Sun, Windy | Grass, Ground, Fire, Flying, Dragon, Psychic\n|  26-40  | Cloudy, Calm | Normal, Rock, Fairy, Fighting, Poison\n|  41-50  | Cloudy, Windy | Normal, Rock, Fairy, Fighting, Poison, Flying, Dragon, Psychic\n|  51-60  | Foggy | Dark, Ghost\n|  61-70  | Light Drizzle | Water, Electric, Bug\n|  71-80  | Heavy Rain | Water, Electric, Bug\n|  81-90  | Light Snow | Ice, Steel\n|  91-99  | Heavy Snow | Ice, Steel\n|  100  | Dangerous Blizzard | Ice, Steel\n\nTo look up the weather table for Spring/Summer, just run this command, `!prules weather spring` and the bot will load those respective table."
+}, {
+  "name": "Wrangler",
+  "meta": "Pokémon 5e Feat",
+  "desc": "Both Pokemon and Trainers can use this feat. You have developed a unique set of skills that give you the ability to grapple and hold an opponent down with steady and strong hands. You gain the following benefits:\n\n- You have advantage on attack rolls against a creature you are Grappling.\n\n- You can use your action to try to pin a creature already Grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both Restrained until the grapple ends.\n\n- When a creature attempts to use their movement to leave your reach without disengaging, you may use your reaction to attempt to Grapple the target."
+}]
