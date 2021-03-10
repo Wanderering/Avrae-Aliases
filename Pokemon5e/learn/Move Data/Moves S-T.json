@@ -1527,6 +1527,7 @@
         "meta": [],
         "target": "all",
         "effects": [{
+          "conc": true,
           "type": "roll",
           "meta": [],
           "dice": "DAMAGE",
@@ -1572,6 +1573,7 @@
       "_v": 2,
       "automation": [{
         "effects": [{
+          "conc": true,
           "dc": "{8+proficiencyBonus+CoMO}",
           "fail": [{
             "duration": "10",
@@ -1724,7 +1726,7 @@
       "_v": 2,
       "automation": [{
         "effects": [{
-          "damage": "-(2d6+{max(CoMO,ChMO)}) [Healing]",
+          "damage": "-({damage}+{max(CoMO,ChMO)}) [Healing]",
           "type": "damage"
         }],
         "target": "each",
@@ -1736,6 +1738,12 @@
       "name": "Soft-Boiled",
       "proper": true,
       "verb": "uses"
+    },
+    "damage": {
+      "1": "2d6",
+      "5": "4d6",
+      "10": "6d6",
+      "17": "8d6"
     },
     "PP": 5
   },
