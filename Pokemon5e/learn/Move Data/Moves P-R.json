@@ -411,7 +411,7 @@
     "PP": 10
   },
   "Play Rough": {
-    "attack": "proficiencyBonus+max(DMO,ChMO)",
+    "attack": "proficiencyBonus+max(SMO,DMO,ChMO)",
     "code": {
       "_v": 2,
       "automation": [{
@@ -435,10 +435,10 @@
       "verb": null
     },
     "damage": {
-      "1": "2d8+{max(DMO,ChMO)}",
-      "5": "2d10+{max(DMO,ChMO)}",
-      "10": "3d10+{max(DMO,ChMO)}",
-      "17": "4d12+{max(DMO,ChMO)}"
+      "1": "2d8+{max(SMO,DMO,ChMO)}",
+      "5": "2d10+{max(SMO,DMO,ChMO)}",
+      "10": "3d10+{max(SMO,DMO,ChMO)}",
+      "17": "4d12+{max(SMO,DMO,ChMO)}"
     },
     "PP": 5
   },
