@@ -781,7 +781,7 @@
 	},
 	"Decidueye":
 	{
-		"id": "724", "type1": "Grass", "type2": "Ghost", "sr": "10", "image": "https://cdn.bulbagarden.net/upload/thumb/a/a4/724Decidueye.png/600px-724Decidueye.png", "desc": "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye’s shots never miss."
+		"id": "724", "type1": "Grass", "type2": "Ghost", "sr": "13", "image": "https://cdn.bulbagarden.net/upload/thumb/a/a4/724Decidueye.png/600px-724Decidueye.png", "desc": "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye’s shots never miss."
 	},
 	"Dedenne":
 	{
@@ -897,7 +897,7 @@
 	},
 	"Dragapult":
 	{
-		"id": "887", "type1": "Dragon", "type2": "Ghost", "sr": "10", "image": "https://cdn.bulbagarden.net/upload/f/f7/887Dragapult.png", "desc": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
+		"id": "887", "type1": "Dragon", "type2": "Ghost", "sr": "14", "image": "https://cdn.bulbagarden.net/upload/f/f7/887Dragapult.png", "desc": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
 	},
 	"Dragonair":
 	{
